@@ -1,2 +1,10 @@
 files:
   - source: scenario_data.csv
+    schema:
+      fields:
+        - name: id
+          type: integer
+        - name: name
+          type: string
+        - name: age
+          type: integer

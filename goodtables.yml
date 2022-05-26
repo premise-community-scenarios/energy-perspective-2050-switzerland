@@ -1,6 +1,9 @@
-files:
-  - source: scenario_data.csv
-    format: csv
-    encoding: utf-8
-    skip_rows: 3
-    delimiter: ','
+settings:
+  skip_checks:
+    - pattern-constraint
+    - missing-header
+  error_limit: 10
+  row_limit: 5000
+
+datapackages:
+  - 'datapackage.json'

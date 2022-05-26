@@ -15,7 +15,7 @@
         "version": "3.8",
         "system model": "cut-off"
     },
-    "IAM scenario": [
+    "IAM scenario available": [
         {
             "model": "image",
             "pathway": "SSP2-Base"

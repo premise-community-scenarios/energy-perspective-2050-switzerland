@@ -1,5 +1,25 @@
 {
     "profile": "data-package",
+    "name": "scenario-example-bread",
+    "title": "Scenario Example Bread",
+    "description": "A scenario example of prospective bread scenario to be used in premise",
+    "version": "0.0.1",
+    "contributors":[{
+    "title": "Romain Sacchi",
+    "email": "r_s@me.com"
+    }],
+    "dependencies": {
+        "premise": ">=1.1.8"
+    },
+    "ecoinvent": {
+        "version": "3.8",
+        "system model": "cut-off"
+    },
+    "licenses": [{
+    "id": "CC0-1.0",
+    "title": "CC0 1.0",
+    "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      }],
     "resources": [
         {
             "path": "scenario data/scenario_data.csv",

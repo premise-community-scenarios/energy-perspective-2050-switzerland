@@ -149,7 +149,7 @@
         {
             "path": "inventories/lci-bread.csv",
             "profile": "data-resource",
-            "name": "lci-bread",
+            "name": "inventories",
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",

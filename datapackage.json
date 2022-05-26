@@ -122,7 +122,7 @@
             "name": "lci-bread",
             "format": "csv",
             "mediatype": "text/csv",
-            "encoding": "utf-8",
+            "encoding": "utf-8"
         },
         {
             "path": "configuration file/config.yaml",

@@ -3,6 +3,8 @@ settings:
     - missing-header
     - blank-header
     - duplicate-header
+    - duplicate-row
+    - blank-row
   error_limit: 10
   row_limit: 5000
 

@@ -30,7 +30,7 @@ How to use it?
 ```python
 
     import brightway2 as bw
-    from premise import *
+    from premise import NewDatabase
     from datapackage import Package
     
     

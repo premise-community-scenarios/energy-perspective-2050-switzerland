@@ -1,0 +1,86 @@
+Database,bread
+format,Excel
+
+Activity,bakery facilities
+code,e59e23f158fc7a6331dc1a86cdd8945b
+location,RER
+production amount,1
+reference product,bakery
+type,process
+unit,unit
+worksheet name,Sheet2
+Exchanges
+name,amount,database,location,unit,type,reference product
+bakery facilities,1,bread,RER,unit,production,bakery
+"market for cement, Portland",400,ecoinvent,Europe without Switzerland,kilogram,technosphere,"cement, Portland"
+market for clay brick,500,ecoinvent,GLO,kilogram,technosphere,clay brick
+market for concrete block,2000,ecoinvent,DE,kilogram,technosphere,concrete block
+"market for concrete, normal",250,ecoinvent,CH,cubic meter,technosphere,"concrete, normal"
+"market group for electricity, low voltage",2000,ecoinvent,RER,kilowatt hour,technosphere,"electricity, low voltage"
+
+Activity,"bread production, activated dough development"
+code,4e683ce1841bb1ccd51e540abc42649e
+location,RER
+production amount,1
+reference product,bread
+type,process
+unit,kilogram
+worksheet name,Sheet2
+Exchanges
+name,amount,database,location,unit,categories,type,reference product
+Nitrogen oxides,0.0002,biosphere3,,kilogram,air,biosphere,
+Water,0.2,biosphere3,,cubic meter,air,biosphere,
+"bread production, activated dough development",1,bread,RER,kilogram,,production,bread
+bakery facilities,1.21765601217656e-06,bread,RER,unit,,technosphere,bakery
+batter wheat mix production,0.5714285714285715,ecoinvent,RER,kilogram,,technosphere,wheat flour mix
+ethanol production from whey,0.017142857142857144,ecoinvent,CH,kilogram,,technosphere,fodder yeast
+"market for butter, from cow milk",0.008571428571428572,ecoinvent,GLO,kilogram,,technosphere,"butter, from cow milk"
+market for salt,0.4285714285714286,ecoinvent,GLO,kilogram,,technosphere,salt
+"market for sugar, from sugarcane",0.022222222222222223,ecoinvent,GLO,kilogram,,technosphere,"sugar, from sugarcane"
+market for tap water,0.008571428571428572,ecoinvent,Europe without Switzerland,kilogram,,technosphere,tap water
+"market group for electricity, low voltage",2.3000000000000003,ecoinvent,RER,kilowatt hour,,technosphere,"electricity, low voltage"
+
+Activity,"bread production, delayed salt method"
+code,d18a5f79825ebf3142d2ffa26d2bfb7f
+location,RER
+production amount,1
+reference product,bread
+type,process
+unit,kilogram
+worksheet name,Sheet2
+Exchanges
+name,amount,database,location,unit,categories,type,reference product
+Nitrogen oxides,0.0002,biosphere3,,kilogram,air,biosphere,
+Water,0.2,biosphere3,,cubic meter,air,biosphere,
+"bread production, delayed salt method",1,bread,RER,kilogram,,production,bread
+bakery facilities,1.21765601217656e-06,bread,RER,unit,,technosphere,bakery
+batter wheat mix production,0.6666666666666666,ecoinvent,RER,kilogram,,technosphere,wheat flour mix
+ethanol production from whey,0.006666666666666666,ecoinvent,CH,kilogram,,technosphere,fodder yeast
+"market for butter, from cow milk",0.039999999999999994,ecoinvent,GLO,kilogram,,technosphere,"butter, from cow milk"
+market for salt,0.03333333333333333,ecoinvent,GLO,kilogram,,technosphere,salt
+"market for sugar, from sugarcane",0.22,ecoinvent,GLO,kilogram,,technosphere,"sugar, from sugarcane"
+market for tap water,0.39999999999999997,ecoinvent,Europe without Switzerland,kilogram,,technosphere,tap water
+"market group for electricity, low voltage",2,ecoinvent,RER,kilowatt hour,,technosphere,"electricity, low voltage"
+
+Activity,"bread production, straight dough method"
+code,5aadeb42ce4ea74e06d9ebe26d9e33d4
+location,RER
+production amount,1
+reference product,bread
+type,process
+unit,kilogram
+worksheet name,Sheet2
+Exchanges
+name,amount,database,location,unit,categories,type,reference product
+Nitrogen oxides,0.0002,biosphere3,,kilogram,air,biosphere,
+Water,0.2,biosphere3,,cubic meter,air,biosphere,
+"bread production, straight dough method",1,bread,RER,kilogram,,production,bread
+bakery facilities,1.21765601217656e-06,bread,RER,unit,,technosphere,bakery
+batter wheat mix production,0.6666666666666666,ecoinvent,RER,kilogram,,technosphere,wheat flour mix
+ethanol production from whey,0.006666666666666666,ecoinvent,CH,kilogram,,technosphere,fodder yeast
+"market for butter, from cow milk",0.039999999999999994,ecoinvent,GLO,kilogram,,technosphere,"butter, from cow milk"
+market for salt,0.013333333333333332,ecoinvent,GLO,kilogram,,technosphere,salt
+"market for sugar, from sugarcane",0.22,ecoinvent,GLO,kilogram,,technosphere,"sugar, from sugarcane"
+market for tap water,0.39999999999999997,ecoinvent,Europe without Switzerland,kilogram,,technosphere,tap water
+"market group for electricity, low voltage",2,ecoinvent,RER,kilowatt hour,,technosphere,"electricity, low voltage"
+

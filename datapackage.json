@@ -1,0 +1,153 @@
+{
+    "profile": "tabular-data-package",
+    "resources": [
+        {
+            "path": "scenario data/scenario_data.csv",
+            "profile": "tabular-data-resource",
+            "name": "scenario_data",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8-sig",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "model",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "pathway",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "region",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "variables",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "unit",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2005",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2010",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2015",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2020",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2025",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2030",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2035",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2040",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2045",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2050",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2060",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2070",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2080",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2090",
+                        "type": "number",
+                        "format": "default"
+                    },
+                    {
+                        "name": "2100",
+                        "type": "number",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "inventories/lci-bread.csv",
+            "profile": "tabular-data-resource",
+            "name": "lci-bread",
+            "format": "csv",
+            "mediatype": "text/csv",
+            "encoding": "utf-8",
+            "schema": {
+                "fields": [
+                    {
+                        "name": "Database",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "bread",
+                        "type": "string",
+                        "format": "default"
+                    }
+                ],
+                "missingValues": [
+                    ""
+                ]
+            }
+        },
+        {
+            "path": "configuration file/config.yaml",
+            "profile": "data-resource",
+            "name": "config",
+            "format": "yaml",
+            "mediatype": "text/yaml",
+            "encoding": "utf-8"
+        }
+    ]
+}

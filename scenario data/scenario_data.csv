@@ -1,0 +1,625 @@
+﻿model,pathway,region,variables,unit,2005,2010,2015,2020,2025,2030,2035,2040,2045,2050,2060,2070,2080,2090,2100
+image,SSP2-Base,BRA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,CAN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CEU,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CHN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,EAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,INDIA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.31,0.32,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,INDO,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,JAP,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,KOR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,ME,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,MEX,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,NAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,OCE,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,RCAM,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAM,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,RUS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,SAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,SEAS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,STAN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,TUR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,UKR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,USA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,WAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,WEU,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,BRA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,CAN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,CEU,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,CHN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,EAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,INDIA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,INDO,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,JAP,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,KOR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,ME,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,MEX,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,NAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,OCE,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,RCAM,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,RSAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,RSAM,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,RSAS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,RUS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,SAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,SEAS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,STAN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,TUR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,UKR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,USA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,WAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,WEU,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.11,0.11,0.12,0.12,0.13,0.13,0.14,0.15,0.16,0.16,0.17,0.18,0.19,0.20
+image,SSP2-Base,BRA,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,CAN,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CEU,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CHN,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,EAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,INDIA,Efficiency|Baking|Bread|Straight Dough Method,-,0.31,0.32,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,INDO,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,JAP,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,KOR,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,ME,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,MEX,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,NAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,OCE,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,RCAM,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAM,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,RUS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,SAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,SEAS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,STAN,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,TUR,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,UKR,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,USA,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,WAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,WEU,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,BRA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,CAN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CEU,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CHN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,EAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,INDIA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.31,0.32,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,INDO,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,JAP,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,KOR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,ME,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,MEX,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,NAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,OCE,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,RCAM,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAM,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,RUS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,SAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,SEAS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,STAN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,TUR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,UKR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,USA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,WAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,WEU,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,BRA,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,CAN,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CEU,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,CHN,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,EAF,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,INDIA,Efficiency|Banana|Urea,-,0.31,0.32,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,INDO,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,JAP,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,KOR,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,ME,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,MEX,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,NAF,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,OCE,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,RCAM,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAF,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAM,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,RSAS,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,RUS,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,SAF,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,SEAS,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,STAN,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,TUR,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,UKR,Efficiency|Banana|Urea,-,0.32,0.33,0.34,0.34,0.35,0.35,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,USA,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,WAF,Efficiency|Banana|Urea,-,0.33,0.34,0.35,0.35,0.36,0.36,0.37,0.37,0.37,0.37,0.38,0.38,0.38,0.38,0.38
+image,SSP2-Base,WEU,Efficiency|Banana|Urea,-,0.34,0.35,0.36,0.36,0.37,0.37,0.38,0.38,0.38,0.38,0.39,0.39,0.39,0.39,0.39
+image,SSP2-Base,BRA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,CAN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,CEU,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,CHN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,EAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,INDIA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.32,0.33,0.34,0.34,0.36,0.38,0.4,0.41,0.42,0.42,0.43,0.44,0.45,0.45,0.46
+image,SSP2-Base,INDO,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,JAP,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,KOR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,ME,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,MEX,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,NAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,OCE,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,RCAM,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,RSAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,RSAM,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,RSAS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,RUS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,SAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,SEAS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,STAN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,TUR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,UKR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-Base,USA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,WAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-Base,WEU,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-Base,BRA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,CAN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.25,0.28,0.28,0.28,0.28,0.28,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29
+image,SSP2-Base,CEU,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.32,0.36,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37,0.37,0.37,0.37
+image,SSP2-Base,CHN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,EAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,INDIA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.31,0.32,0.33,0.33,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.34,0.34
+image,SSP2-Base,INDO,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,JAP,Production|Baking|Bread|Straight Dough Method,Mt/year,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,KOR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.2,0.17,0.17,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18
+image,SSP2-Base,ME,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,MEX,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,NAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,OCE,Production|Baking|Bread|Straight Dough Method,Mt/year,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36,0.36
+image,SSP2-Base,RCAM,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,RSAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,RSAM,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,RSAS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,RUS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.12,0.12,0.13,0.13,0.13,0.13,0.14,0.14,0.14,0.14,0.14,0.14,0.14,0.14,0.14
+image,SSP2-Base,SAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,SEAS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,STAN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-Base,TUR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.28,0.28,0.28,0.28,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29
+image,SSP2-Base,UKR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.24,0.19,0.19,0.19,0.19,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2
+image,SSP2-Base,USA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.44,0.44,0.45,0.45,0.45,0.46,0.46,0.46,0.47,0.47,0.47,0.47,0.47,0.47,0.47
+image,SSP2-Base,WAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-Base,WEU,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.26,0.27,0.27,0.27,0.27,0.27,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28
+image,SSP2-Base,BRA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,CAN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CEU,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CHN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,EAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,INDIA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-Base,INDO,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,JAP,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,KOR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,ME,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,MEX,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,NAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,OCE,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,RCAM,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAM,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,RUS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,SAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,SEAS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,STAN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,TUR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,UKR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,USA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,WAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,WEU,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,BRA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,CAN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CEU,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CHN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,EAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,INDIA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-Base,INDO,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,JAP,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,KOR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,ME,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,MEX,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,NAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,OCE,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,RCAM,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAM,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,RUS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,SAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,SEAS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,STAN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,TUR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,UKR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,USA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,WAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,WEU,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,BRA,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,CAN,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CEU,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CHN,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,EAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,INDIA,Production|Copper|Cake,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-Base,INDO,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,JAP,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,KOR,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,ME,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,MEX,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,NAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,OCE,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,RCAM,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAM,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,RUS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,SAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,SEAS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,STAN,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,TUR,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,UKR,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,USA,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,WAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,WEU,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,BRA,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,CAN,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CEU,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,CHN,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,EAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,INDIA,Production|Almond,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-Base,INDO,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,JAP,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,KOR,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,ME,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,MEX,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,NAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,OCE,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,RCAM,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAM,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,RSAS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,RUS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,SAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,SEAS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,STAN,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,TUR,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,UKR,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-Base,USA,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,WAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-Base,WEU,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-Base,BRA,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,CAN,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,CEU,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,CHN,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,EAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,INDIA,Production|Banana,Mt/year,0.37,0.38,0.40,0.40,0.41,0.42,0.44,0.46,0.46,0.46,0.47,0.48,0.48,0.49,0.49
+image,SSP2-Base,INDO,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,JAP,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,KOR,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,ME,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,MEX,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,NAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,OCE,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,RCAM,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,RSAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,RSAM,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,RSAS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,RUS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,SAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,SEAS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,STAN,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,TUR,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,UKR,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-Base,USA,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-Base,WAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-Base,WEU,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,BRA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,CAN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CEU,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CHN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,EAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,INDIA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.31,0.32,0.33,0.33,0.408,0.408,0.42,0.42,0.42,0.42,0.432,0.432,0.432,0.432,0.432
+image,SSP2-RCP26,INDO,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,JAP,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,KOR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,ME,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,MEX,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,NAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,OCE,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,RCAM,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAM,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,RUS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,SAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,SEAS,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,STAN,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,TUR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,UKR,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,USA,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,WAF,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,WEU,Efficiency|Baking|Bread|Activated Dough Development (Elec and steam),-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,BRA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,CAN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,CEU,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,CHN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,EAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,INDIA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,INDO,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,JAP,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,KOR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,ME,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,MEX,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,NAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,OCE,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,RCAM,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,RSAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,RSAM,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,RSAS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,RUS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,SAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,SEAS,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,STAN,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,TUR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,UKR,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,USA,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,WAF,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,WEU,Efficiency|Baking|Bread|Activated Dough Development (Salt),-,0.1,0.105,0.11025,0.1157625,0.121550625,0.127628156,0.134009564,0.140710042,0.147745544,0.155132822,0.162889463,0.171033936,0.179585633,0.188564914,0.19799316
+image,SSP2-RCP26,BRA,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,CAN,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CEU,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CHN,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,EAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,INDIA,Efficiency|Baking|Bread|Straight Dough Method,-,0.31,0.32,0.33,0.33,0.408,0.408,0.42,0.42,0.42,0.42,0.432,0.432,0.432,0.432,0.432
+image,SSP2-RCP26,INDO,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,JAP,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,KOR,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,ME,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,MEX,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,NAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,OCE,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,RCAM,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAM,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,RUS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,SAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,SEAS,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,STAN,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,TUR,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,UKR,Efficiency|Baking|Bread|Straight Dough Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,USA,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,WAF,Efficiency|Baking|Bread|Straight Dough Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,WEU,Efficiency|Baking|Bread|Straight Dough Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,BRA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,CAN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CEU,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,CHN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,EAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,INDIA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.31,0.32,0.33,0.33,0.408,0.408,0.42,0.42,0.42,0.42,0.432,0.432,0.432,0.432,0.432
+image,SSP2-RCP26,INDO,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,JAP,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,KOR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,ME,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,MEX,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,NAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,OCE,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,RCAM,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAM,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,RSAS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,RUS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,SAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,SEAS,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,STAN,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,TUR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,UKR,Efficiency|Baking|Bread|Delayed Salt Method,-,0.32,0.33,0.34,0.34,0.42,0.42,0.432,0.432,0.432,0.432,0.444,0.444,0.444,0.444,0.444
+image,SSP2-RCP26,USA,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,WAF,Efficiency|Baking|Bread|Delayed Salt Method,-,0.33,0.34,0.35,0.35,0.432,0.432,0.444,0.444,0.444,0.444,0.456,0.456,0.456,0.456,0.456
+image,SSP2-RCP26,WEU,Efficiency|Baking|Bread|Delayed Salt Method,-,0.34,0.35,0.36,0.36,0.444,0.444,0.456,0.456,0.456,0.456,0.468,0.468,0.468,0.468,0.468
+image,SSP2-RCP26,BRA,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,CAN,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,CEU,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,CHN,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,EAF,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,INDIA,Efficiency|Banana|Urea,-,0.31,0.3255,0.341775,0.35886375,0.376806938,0.395647284,0.415429649,0.436201131,0.458011188,0.480911747,0.504957334,0.530205201,0.556715461,0.584551234,0.613778796
+image,SSP2-RCP26,INDO,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,JAP,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,KOR,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,ME,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,MEX,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,NAF,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,OCE,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,RCAM,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,RSAF,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,RSAM,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,RSAS,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,RUS,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,SAF,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,SEAS,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,STAN,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,TUR,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,UKR,Efficiency|Banana|Urea,-,0.32,0.336,0.3528,0.37044,0.388962,0.4084101,0.428830605,0.450272135,0.472785742,0.496425029,0.521246281,0.547308595,0.574674024,0.603407726,0.633578112
+image,SSP2-RCP26,USA,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,WAF,Efficiency|Banana|Urea,-,0.33,0.3465,0.363825,0.38201625,0.401117063,0.421172916,0.442231561,0.464343139,0.487560296,0.511938311,0.537535227,0.564411988,0.592632588,0.622264217,0.653377428
+image,SSP2-RCP26,WEU,Efficiency|Banana|Urea,-,0.34,0.357,0.37485,0.3935925,0.413272125,0.433935731,0.455632518,0.478414144,0.502334851,0.527451593,0.553824173,0.581515382,0.610591151,0.641120708,0.673176744
+image,SSP2-RCP26,BRA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,CAN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,CEU,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,CHN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,EAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,INDIA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.32,0.33,0.34,0.34,0.36,0.38,0.4,0.41,0.42,0.42,0.43,0.44,0.45,0.45,0.46
+image,SSP2-RCP26,INDO,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,JAP,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,KOR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,ME,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,MEX,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,NAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,OCE,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,RCAM,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,RSAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,RSAM,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,RSAS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,RUS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,SAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,SEAS,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,STAN,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,TUR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,UKR,Production|Baking|Bread|Activated Dough Development,Mt/year,0.33,0.34,0.35,0.35,0.37,0.39,0.41,0.43,0.43,0.43,0.44,0.45,0.46,0.46,0.47
+image,SSP2-RCP26,USA,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,WAF,Production|Baking|Bread|Activated Dough Development,Mt/year,0.34,0.35,0.36,0.36,0.38,0.4,0.42,0.44,0.44,0.44,0.45,0.46,0.47,0.47,0.48
+image,SSP2-RCP26,WEU,Production|Baking|Bread|Activated Dough Development,Mt/year,0.35,0.36,0.37,0.37,0.39,0.41,0.43,0.44,0.45,0.45,0.46,0.47,0.48,0.48,0.49
+image,SSP2-RCP26,BRA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,CAN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.25,0.28,0.28,0.28,0.28,0.28,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29
+image,SSP2-RCP26,CEU,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.32,0.36,0.36,0.36,0.36,0.36,0.37,0.37,0.37,0.37,0.37,0.37,0.37,0.37
+image,SSP2-RCP26,CHN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,EAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,INDIA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.31,0.32,0.33,0.33,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.34,0.34
+image,SSP2-RCP26,INDO,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,JAP,Production|Baking|Bread|Straight Dough Method,Mt/year,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36,0.36
+image,SSP2-RCP26,KOR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.2,0.17,0.17,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18,0.18
+image,SSP2-RCP26,ME,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,MEX,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,NAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,OCE,Production|Baking|Bread|Straight Dough Method,Mt/year,0.33,0.33,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.36,0.36,0.36,0.36,0.36,0.36
+image,SSP2-RCP26,RCAM,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,RSAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,RSAM,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,RSAS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,RUS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.12,0.12,0.13,0.13,0.13,0.13,0.14,0.14,0.14,0.14,0.14,0.14,0.14,0.14,0.14
+image,SSP2-RCP26,SAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,SEAS,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,STAN,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.33,0.33,0.33,0.34,0.34,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,TUR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.32,0.28,0.28,0.28,0.28,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29,0.29
+image,SSP2-RCP26,UKR,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.24,0.19,0.19,0.19,0.19,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2,0.2
+image,SSP2-RCP26,USA,Production|Baking|Bread|Straight Dough Method,Mt/year,0.44,0.44,0.45,0.45,0.45,0.46,0.46,0.46,0.47,0.47,0.47,0.47,0.47,0.47,0.47
+image,SSP2-RCP26,WAF,Production|Baking|Bread|Straight Dough Method,Mt/year,0.32,0.33,0.34,0.34,0.34,0.34,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35,0.35
+image,SSP2-RCP26,WEU,Production|Baking|Bread|Straight Dough Method,Mt/year,0.24,0.26,0.27,0.27,0.27,0.27,0.27,0.28,0.28,0.28,0.28,0.28,0.28,0.28,0.28
+image,SSP2-RCP26,BRA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,CAN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CEU,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CHN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,EAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,INDIA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-RCP26,INDO,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,JAP,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,KOR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,ME,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,MEX,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,NAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,OCE,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,RCAM,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAM,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,RUS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,SAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,SEAS,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,STAN,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,TUR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,UKR,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,USA,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,WAF,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,WEU,Production|Baking|Bread|Delayed Salt Method,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,BRA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,CAN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CEU,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CHN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,EAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,INDIA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-RCP26,INDO,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,JAP,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,KOR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,ME,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,MEX,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,NAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,OCE,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,RCAM,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAM,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,RUS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,SAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,SEAS,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,STAN,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,TUR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,UKR,Production|Baking|Bread|Breadcrumbs,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,USA,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,WAF,Production|Baking|Bread|Breadcrumbs,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,WEU,Production|Baking|Bread|Breadcrumbs,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,BRA,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,CAN,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CEU,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CHN,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,EAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,INDIA,Production|Copper|Cake,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-RCP26,INDO,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,JAP,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,KOR,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,ME,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,MEX,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,NAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,OCE,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,RCAM,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAM,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,RUS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,SAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,SEAS,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,STAN,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,TUR,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,UKR,Production|Copper|Cake,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,USA,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,WAF,Production|Copper|Cake,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,WEU,Production|Copper|Cake,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,BRA,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,CAN,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CEU,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,CHN,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,EAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,INDIA,Production|Almond,Mt/year,0.31,0.32,0.33,0.33,0.34,0.35,0.37,0.38,0.38,0.38,0.39,0.4,0.4,0.41,0.41
+image,SSP2-RCP26,INDO,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,JAP,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,KOR,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,ME,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,MEX,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,NAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,OCE,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,RCAM,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAM,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,RSAS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,RUS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,SAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,SEAS,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,STAN,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,TUR,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,UKR,Production|Almond,Mt/year,0.32,0.33,0.34,0.34,0.35,0.36,0.38,0.39,0.39,0.4,0.4,0.41,0.41,0.41,0.42
+image,SSP2-RCP26,USA,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,WAF,Production|Almond,Mt/year,0.33,0.34,0.35,0.35,0.36,0.37,0.39,0.4,0.4,0.41,0.41,0.41,0.42,0.43,0.43
+image,SSP2-RCP26,WEU,Production|Almond,Mt/year,0.34,0.35,0.36,0.36,0.37,0.38,0.4,0.41,0.41,0.41,0.42,0.43,0.43,0.44,0.44
+image,SSP2-RCP26,BRA,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,CAN,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,CEU,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,CHN,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,EAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,INDIA,Production|Banana,Mt/year,0.37,0.38,0.40,0.40,0.41,0.42,0.44,0.46,0.46,0.46,0.47,0.48,0.48,0.49,0.49
+image,SSP2-RCP26,INDO,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,JAP,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,KOR,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,ME,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,MEX,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,NAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,OCE,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,RCAM,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,RSAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,RSAM,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,RSAS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,RUS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,SAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,SEAS,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,STAN,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,TUR,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,UKR,Production|Banana,Mt/year,0.38,0.40,0.41,0.41,0.42,0.43,0.46,0.47,0.47,0.48,0.48,0.49,0.49,0.49,0.50
+image,SSP2-RCP26,USA,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53
+image,SSP2-RCP26,WAF,Production|Banana,Mt/year,0.40,0.41,0.42,0.42,0.43,0.44,0.47,0.48,0.48,0.49,0.49,0.49,0.50,0.52,0.52
+image,SSP2-RCP26,WEU,Production|Banana,Mt/year,0.41,0.42,0.43,0.43,0.44,0.46,0.48,0.49,0.49,0.49,0.50,0.52,0.52,0.53,0.53

@@ -27,4 +27,26 @@ Compatible with the following IAM scenarios:
 How to use?
 -----------
 
+.. code-block:: python
+
+    import brightway2 as bw
+    from premise import *
+    from datapackage import Package
+    
+    fp = r"https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/datapackage.json"
+    scenario1 = Package(fp)
+    
+    bw.projects.set_current("your_bw_project")
+    
+    ndb = NewDatabase(
+            scenarios = [
+                {"model":"image", "pathway":"SSP2-Base", "year":2050, "exclude": ["update_two_wheelers", "update_buses", "update_cars"]},
+                {"model":"image", "pathway":"SSP2-RCP26", "year":2030, "exclude": ["update_two_wheelers", "update_buses", "update_cars"]},
+            ],        
+            source_db="ecoinvent 3.8 cutoff",
+            source_version="3.8",
+            key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
+            custom_scenario=[scenario1] # <-- list custom scenarios to use here
+        )
+"""
 

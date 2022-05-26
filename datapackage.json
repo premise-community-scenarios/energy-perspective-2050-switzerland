@@ -126,16 +126,6 @@
             "schema": {
                 "fields": [
                     {
-                        "name": "Database",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "bread",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
                         "name": "name",
                         "type": "string",
                         "format": "default"

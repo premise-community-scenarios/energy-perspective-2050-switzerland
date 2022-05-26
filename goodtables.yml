@@ -5,6 +5,7 @@ settings:
     - duplicate-header
     - duplicate-row
     - blank-row
+    - non-matching-header
   error_limit: 10
   row_limit: 5000
 

@@ -4,4 +4,8 @@ This is an example of a repository containing a custom prospective scenario for 
 This is a data package that contains all the files necessary to premise to implment
 this custom scenario.
 
+Compatible with the following IAM scenarios:
+* IMAGE SSP2-Base
+* IMAGE SSP2-RCP26
+
 

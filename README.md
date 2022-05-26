@@ -41,8 +41,8 @@ How to use it?
     
     ndb = NewDatabase(
             scenarios = [
-                {"model":"image", "pathway":"SSP2-Base", "year":2050, "exclude": ["update_two_wheelers", "update_buses", "update_cars"]},
-                {"model":"image", "pathway":"SSP2-RCP26", "year":2030, "exclude": ["update_two_wheelers", "update_buses", "update_cars"]},
+                {"model":"image", "pathway":"SSP2-Base", "year":2050,},
+                {"model":"image", "pathway":"SSP2-RCP26", "year":2030,},
             ],        
             source_db="ecoinvent 3.8 cutoff",
             source_version="3.8",

@@ -48,8 +48,8 @@ How to use it?
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
             custom_scenario=[
-                bread_scenario,
-            ] # <-- list datapackage
+                bread_scenario, # <-- list datapackage objects here
+            ] 
         )
 ```
 

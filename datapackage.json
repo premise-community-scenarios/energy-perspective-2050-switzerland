@@ -15,6 +15,16 @@
         "version": "3.8",
         "system model": "cut-off"
     },
+    "IAM scenario": [
+        {
+            "model": "image",
+            "pathway": "SSP2-Base"
+        },
+        {
+            "model": "image",
+            "pathway": "SSP2-RCP26"
+        }
+    ],
     "licenses": [{
     "id": "CC0-1.0",
     "title": "CC0 1.0",

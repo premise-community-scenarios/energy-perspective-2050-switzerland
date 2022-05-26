@@ -27,7 +27,7 @@ Compatible with the following IAM scenarios:
 How to use?
 -----------
 
-.. code-block:: python
+```python
 
     import brightway2 as bw
     from premise import *
@@ -48,5 +48,5 @@ How to use?
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
             custom_scenario=[scenario1] # <-- list custom scenarios to use here
         )
-"""
+```
 

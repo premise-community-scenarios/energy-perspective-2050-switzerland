@@ -9,6 +9,8 @@ settings:
     - non-matching-header
   error_limit: 100
   row_limit: 5000
+  infer_schema: True
+  infer_fields: True
 
 datapackages:
   - 'datapackage.json'

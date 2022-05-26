@@ -1,5 +1,5 @@
 {
-    "profile": "tabular-data-package",
+    "profile": "data-package",
     "resources": [
         {
             "path": "scenario data/scenario_data.csv",

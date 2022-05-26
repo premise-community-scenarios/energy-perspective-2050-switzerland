@@ -1,7 +1,0 @@
-files:
-  - source: scenario_data.csv
-    format: csv
-    encoding: utf-8
-    skip_rows: 12
-    delimiter: ','
-

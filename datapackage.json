@@ -147,7 +147,7 @@
             }
         },
         {
-            "path": "https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/inventories/lci-bread.csv",
+            "path": "inventories/lci-bread.csv",
             "profile": "data-resource",
             "name": "lci-bread",
             "format": "csv",
@@ -202,7 +202,7 @@
             }
         },
         {
-            "path": "https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/configuration file/config.yaml",
+            "path": "configuration file/config.yaml",
             "profile": "data-resource",
             "name": "config",
             "format": "yaml",

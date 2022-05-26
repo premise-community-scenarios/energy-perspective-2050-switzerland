@@ -7,7 +7,7 @@ from premise.ecoinvent_modification import (
     SUPPORTED_EI_VERSIONS,
 )
 
-def check_scenario_data_file(custom_scenario, iam_scenarios):
+def test_scenario_data_file(custom_scenario, iam_scenarios):
 
     for i, scenario in enumerate(custom_scenario):
 

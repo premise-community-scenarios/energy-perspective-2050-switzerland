@@ -2,7 +2,7 @@ import pandas as pd
 import yaml
 
 
-def check_inventories(custom_scenario, data, model, pathway, custom_data):
+def test_inventories(custom_scenario, data, model, pathway, custom_data):
 
     for i, scenario in enumerate(custom_scenario):
 

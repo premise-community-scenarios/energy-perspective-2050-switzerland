@@ -7,7 +7,7 @@ from premise.ecoinvent_modification import (
     SUPPORTED_EI_VERSIONS,
 )
 
-def check_config_file(custom_scenario):
+def test_config_file(custom_scenario):
 
     for i, scenario in enumerate(custom_scenario):
         with open(scenario["config"], "r") as stream:

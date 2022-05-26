@@ -1,9 +1,4 @@
-# scenario-example-bread 
-
-### Data structure checks
-[![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread)
-
-### Data validation checks
+# scenario-example-bread [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread)
 
 Description
 -----------

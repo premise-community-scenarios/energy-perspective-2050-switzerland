@@ -1,12 +1,7 @@
-settings:
+files:
+  - source: scenario_data.csv
 
-  skip_checks:
-    - missing-header
-    - blank-header
-    - duplicate-header
-    - duplicate-row
-    - blank-row
-    - non-matching-header
+settings:
   error_limit: 100
   row_limit: 5000
   infer_schema: True

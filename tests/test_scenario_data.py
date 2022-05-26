@@ -29,19 +29,19 @@ def test_scenario_data_file():
     if not all(v in df.columns for v in mandatory_fields):
         raise ValueError(
             f"One or several mandatory column are missing "
-            f"in the scenario data file. Mandatory columns: {mandatory_fields}."
+            f"in the scenario_data file. Mandatory columns: {mandatory_fields}."
         )
 
     years_cols = [c for c in df.columns if isinstance(c, int)]
     if any(y for y in years_cols if y < 2005 or y > 2100):
         raise ValueError(
-            f"One or several of the years provided in the scenario data file no. {i + 1} are "
+            f"One or several of the years provided in the scenario_data file no. {i + 1} are "
             "out of boundaries (2005 - 2100)."
         )
 
     if len(pd.isnull(df).sum()[pd.isnull(df).sum() > 0]) > 0:
         raise ValueError(
-            f"The following columns in the scenario data file"
+            f"The following columns in the scenario_data file"
             f"contains empty cells.\n{pd.isnull(df).sum()[pd.isnull(df).sum() > 0]}."
         )
 
@@ -61,8 +61,8 @@ def test_scenario_data_file():
         for v in df["variables"].unique()
     ):
         raise ValueError(
-            f"One or several variable names in the scenario data file "
-            "cannot be found in the configuration file."
+            f"One or several variable names in the scenario_data file "
+            "cannot be found in the configuration_file."
         )
 
     if not all(
@@ -70,8 +70,8 @@ def test_scenario_data_file():
         for v in get_recursively(config_file, "variable")
     ):
         raise ValueError(
-            f"One or several variable names in the configuration file "
-            "cannot be found in the scenario data file."
+            f"One or several variable names in the configuration_file "
+            "cannot be found in the scenario_data file."
         )
 
     try:
@@ -79,7 +79,7 @@ def test_scenario_data_file():
     except ValueError as e:
         raise TypeError(
             f"All values provided in the time series must be numerical "
-            f"in the scenario data file."
+            f"in the scenario_data file."
         ) from e
 
 

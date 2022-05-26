@@ -35,6 +35,6 @@ def test_datapackage():
                 config_file = yaml.safe_load(stream)
             assert isinstance(config_file, dict)
 
-        if resource.name == "scenario data":
+        if resource.name == "scenario_data":
             assert pd.read_csv(resource.descriptor["path"]).shape != (0, 0)
 

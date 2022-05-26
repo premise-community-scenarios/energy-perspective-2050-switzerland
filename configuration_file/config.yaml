@@ -12,13 +12,13 @@
 production pathways:
   # name given to a technology: this name is internal to premise
   ADD:
-    # variables to look for in the scenario data file to fetch production volumes
-    # values fetched from the scenario data file as production volumes are used to calculate
+    # variables to look for in the scenario_data file to fetch production volumes
+    # values fetched from the scenario_data file as production volumes are used to calculate
     # the supply share if markets are to be built
     production volume:
-      # `variable` in `production volume` refers to the variable name in the scenario data file
+      # `variable` in `production volume` refers to the variable name in the scenario_data file
       variable: Production|Baking|Bread|Activated Dough Development
-    # OPTIONAL: `efficiency` and underlying `variable` refers to the values to look for in the scenario data file
+    # OPTIONAL: `efficiency` and underlying `variable` refers to the values to look for in the scenario_data file
     # if the technology is believed to improve over time.
     efficiency:
       - variable: Efficiency|Baking|Bread|Activated Dough Development (Elec and steam)

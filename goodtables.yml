@@ -1,2 +1,2 @@
 files:
-  - source: scenario data/scenario_data.csv
+  - source: scenario_data/scenario_data.csv

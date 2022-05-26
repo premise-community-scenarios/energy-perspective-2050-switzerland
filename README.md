@@ -24,8 +24,8 @@ Compatible with the following IAM scenarios:
 * IMAGE SSP2-Base
 * IMAGE SSP2-RCP26
 
-How to use?
------------
+How to use it?
+--------------
 
 ```python
 

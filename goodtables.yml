@@ -6,7 +6,7 @@ settings:
     - duplicate-row
     - blank-row
     - non-matching-header
-  error_limit: 10
+  error_limit: 100
   row_limit: 5000
 
 datapackages:

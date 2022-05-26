@@ -1,0 +1,26 @@
+files:
+  - source: lci-bread.csv
+    schema: schema.json
+    format: csv
+    encoding: utf-8
+    skip_rows: 12
+    delimiter: ','
+
+datapackages:
+  - 'datapackage.json'
+
+settings:
+  checks:
+    # You can pass check types
+    - structure
+    - schema
+  skip_checks:
+    - duplicate-lines
+    - blank headers
+    - no-headers
+  error_limit: 1
+  table_limit: 1
+  row_limit: 5000
+  infer_schema: True
+  infer_fields: True
+  order_fields: True

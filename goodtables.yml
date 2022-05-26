@@ -1,2 +1,3 @@
 files:
   - source: scenario data/scenario_data.csv
+  - source: configuration file/config.yaml

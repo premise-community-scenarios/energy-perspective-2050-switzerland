@@ -1,4 +1,5 @@
 settings:
+  skip_rows: 3
   skip_checks:
     - missing-header
     - blank-header

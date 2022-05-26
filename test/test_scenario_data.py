@@ -1,5 +1,6 @@
 import yaml
 
+
 def check_scenario_data_file(custom_scenario, iam_scenarios):
 
     for i, scenario in enumerate(custom_scenario):
@@ -126,4 +127,3 @@ def get_recursively(search_dict, field):
                         fields_found.append(another_result)
 
     return fields_found
-

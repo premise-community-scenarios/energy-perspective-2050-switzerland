@@ -6,49 +6,36 @@
             "format": "default"
         },
         {
-            "name": "bread",
-            "type": "string",
-            "format": "default"
-        },
-        {
             "name": "name",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "amount",
-            "type": "number",
-            "format": "default"
+            "type": "number"
         },
         {
             "name": "database",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "location",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "categories",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "unit",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "type",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         },
         {
             "name": "reference product",
-            "type": "string",
-            "format": "default"
+            "type": "string"
         }
     ],
     "missingValues": [

@@ -1,4 +1,4 @@
-# scenario-example-bread [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread)
+# scenario-example-bread [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread) ![example workflow](https://github.com/premise-community-scenarios/scenario-example-bread/actions/workflows/main.yml/badge.svg?branch=master)
 
 Description
 -----------

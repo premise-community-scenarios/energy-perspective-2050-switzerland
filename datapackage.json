@@ -118,7 +118,7 @@
         },
         {
             "path": "inventories/lci-bread.csv",
-            "profile": "tabular-data-resource",
+            "profile": "data-resource",
             "name": "lci-bread",
             "format": "csv",
             "mediatype": "text/csv",

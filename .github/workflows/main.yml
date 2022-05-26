@@ -9,8 +9,6 @@ jobs:
       matrix:
         os: [ubuntu-latest]
 
-    needs: clean
-
     steps:
       - uses: actions/checkout@v2
 

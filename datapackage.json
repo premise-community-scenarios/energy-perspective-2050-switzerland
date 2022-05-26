@@ -123,23 +123,6 @@
             "format": "csv",
             "mediatype": "text/csv",
             "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "Database",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "bread",
-                        "type": "string",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
         },
         {
             "path": "configuration file/config.yaml",

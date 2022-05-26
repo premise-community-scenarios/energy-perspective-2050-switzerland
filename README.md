@@ -31,10 +31,6 @@ How to use?
 
     import brightway2 as bw
     from premise import *
-    from datapackage import Package
-    
-    fp = r"https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/datapackage.json"
-    scenario1 = Package(fp)
     
     bw.projects.set_current("your_bw_project")
     
@@ -46,7 +42,9 @@ How to use?
             source_db="ecoinvent 3.8 cutoff",
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-            custom_scenario=[scenario1] # <-- list custom scenarios to use here
+            custom_scenario=[
+                r"https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/datapackage.json"
+            ] # <-- list datapackage file paths here
         )
 ```
 

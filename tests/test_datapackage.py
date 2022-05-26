@@ -29,7 +29,6 @@ def test_datapackage():
                                                             f"It must contain the following fields {mandatory_keys}"
 
     for resource in dp.resources:
-
         if resource.name == "config":
 
             with open(resource.descriptor["path"], "r") as stream:

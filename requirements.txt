@@ -3,3 +3,4 @@ pandas
 pyyaml
 schema
 premise
+datapackage

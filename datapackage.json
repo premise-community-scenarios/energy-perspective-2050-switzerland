@@ -32,7 +32,7 @@
       }],
     "resources": [
         {
-            "path": "https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/scenario data/scenario_data.csv",
+            "path": "scenario data/scenario_data.csv",
             "profile": "tabular-data-resource",
             "name": "scenario_data",
             "format": "csv",

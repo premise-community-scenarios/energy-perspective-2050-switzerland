@@ -1,5 +1,11 @@
 import yaml
-
+import pandas as pd
+import numpy as np
+from premise.ecoinvent_modification import (
+    LIST_IMAGE_REGIONS,
+    LIST_REMIND_REGIONS,
+    SUPPORTED_EI_VERSIONS,
+)
 
 def check_scenario_data_file(custom_scenario, iam_scenarios):
 

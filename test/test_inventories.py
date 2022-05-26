@@ -1,17 +1,5 @@
-from pathlib import Path
-
-import numpy as np
 import pandas as pd
 import yaml
-from schema import And, Optional, Or, Schema, Use
-
-from .ecoinvent_modification import (
-    LIST_IMAGE_REGIONS,
-    LIST_REMIND_REGIONS,
-    SUPPORTED_EI_VERSIONS,
-)
-from .transformation import *
-from .utils import eidb_label
 
 
 def check_inventories(custom_scenario, data, model, pathway, custom_data):
@@ -41,13 +29,5 @@ def check_inventories(custom_scenario, data, model, pathway, custom_data):
                 raise ValueError(
                     f"The inventories provided do not contain the activity: {name, ref}"
                 )
-
-            for i, a in enumerate(data):
-                a["custom scenario dataset"] = True
-
-                if (name, ref) == (a["name"], a["reference product"]):
-                    data[i] = flag_activities_to_adjust(
-                        a, df, model, pathway, v, custom_data
-                    )
 
     return data

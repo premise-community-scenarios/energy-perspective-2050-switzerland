@@ -1,18 +1,11 @@
-from pathlib import Path
-
-import numpy as np
-import pandas as pd
 import yaml
 from schema import And, Optional, Or, Schema, Use
 
-from .ecoinvent_modification import (
+from premise.ecoinvent_modification import (
     LIST_IMAGE_REGIONS,
     LIST_REMIND_REGIONS,
     SUPPORTED_EI_VERSIONS,
 )
-from .transformation import *
-from .utils import eidb_label
-
 
 def check_config_file(custom_scenario):
 
@@ -119,3 +112,30 @@ def check_config_file(custom_scenario):
             needs_imported_inventories[i] = True
 
     return sum(needs_imported_inventories)
+
+def get_recursively(search_dict, field):
+    """Takes a dict with nested lists and dicts,
+    and searches all dicts for a key of the field
+    provided.
+    """
+    fields_found = []
+
+    for key, value in search_dict.items():
+
+        if key == field:
+            fields_found.append(value)
+
+        elif isinstance(value, dict):
+            results = get_recursively(value, field)
+            for result in results:
+                fields_found.append(result)
+
+        elif isinstance(value, list):
+            for item in value:
+                if isinstance(item, dict):
+                    more_results = get_recursively(item, field)
+                    for another_result in more_results:
+                        fields_found.append(another_result)
+
+    return fields_found
+

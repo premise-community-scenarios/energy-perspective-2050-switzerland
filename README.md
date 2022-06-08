@@ -4,8 +4,8 @@ Description
 -----------
 
 This is an example of a repository containing a custom prospective scenario for breadmaking, to be used in premise.
-This is a data package that contains all the files necessary to premise to implement
-this custom scenario. This is a dummy scenario to illustrate the principle of custom scenarios.
+This is a data package that contains all the files necessary for premise to implement
+this custom scenario. This is a dummy scenario to illustrate the principle of custom scenarios and their use alongside IAM scenarios.
 
 Sourced from publication
 ------------------------

@@ -50,7 +50,8 @@ jobs:
           echo "::set-output name=packageJson::$content"
       - run: |
           echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
-          VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}
+        env:
+          VERSION: "${{fromJson(steps.set_var.outputs.packageJson).version}}"
 
       - name: Create Release
         id: create_release
@@ -58,8 +59,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: ${{ VERSION }}
-          release_name: ${{ VERSION }}
+          tag_name: VERSION
+          release_name: VERSION
           body: Scenario update
           draft: false
           prerelease: false

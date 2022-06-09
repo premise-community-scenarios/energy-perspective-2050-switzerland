@@ -1,4 +1,10 @@
-# scenario-example-bread ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/scenario-example-bread) [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread) ![example workflow](https://github.com/premise-community-scenarios/scenario-example-bread/actions/workflows/main.yml/badge.svg?branch=main) [![DOI](https://zenodo.org/badge/496564841.svg)](https://zenodo.org/badge/latestdoi/496564841)
+# scenario-example-bread ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/scenario-example-bread) [![DOI](https://zenodo.org/badge/496564841.svg)](https://zenodo.org/badge/latestdoi/496564841)
+
+Data validation [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread)
+---------------
+
+Test ![example workflow](https://github.com/premise-community-scenarios/scenario-example-bread/actions/workflows/main.yml/badge.svg?branch=main)
+----
 
 Description
 -----------

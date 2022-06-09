@@ -58,8 +58,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v.$VERSION
-          release_name: v.$VERSION
+          tag_name: v. $VERSION
+          release_name: v. $VERSION
           body: Scenario update
           draft: false
           prerelease: false

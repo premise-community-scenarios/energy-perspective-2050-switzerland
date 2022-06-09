@@ -51,7 +51,7 @@ jobs:
           echo "::set-output name=packageJson::$content"
       - run: |
           echo "VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}" >> $GITHUB_ENV
-          echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+          echo "LATEST_TAG=$(git describe --tags `git rev-list --tags --max-count=1`)" >> $GITHUB_ENV
 
       - name: Create Release
         id: create_release

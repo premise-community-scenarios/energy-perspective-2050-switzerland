@@ -3,7 +3,7 @@
     "name": "scenario-example-bread",
     "title": "Scenario Example Bread",
     "description": "A scenario example of prospective bread scenario to be used in premise",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"

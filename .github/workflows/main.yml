@@ -49,8 +49,7 @@ jobs:
           # end of optional handling for multi line json
           echo "::set-output name=packageJson::$content"
       - run: |
-          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
-          VERSION = "${{fromJson(steps.set_var.outputs.packageJson).version}}"
+          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}" >> $VERSION
 
       - name: Create Release
         id: create_release

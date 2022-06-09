@@ -46,8 +46,7 @@ jobs:
           content="${content//$'\r'/'%0D'}"
           # end of optional handling for multi line json
           echo "::set-output name=packageJson::$content"
-        env:
-          VERSION: "${{fromJson(steps.set_var.outputs.packageJson).version}}"
+          VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}
 
       - name: Checkout code
         uses: actions/checkout@v2

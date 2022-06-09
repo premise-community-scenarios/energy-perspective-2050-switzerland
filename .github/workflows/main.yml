@@ -37,7 +37,7 @@ jobs:
 
     steps:
 
-      - name: fetch version
+      - id: set_var
         run: |
           content=`cat ./datapackage.json`
           # the following lines are only required for multi line json
@@ -46,6 +46,8 @@ jobs:
           content="${content//$'\r'/'%0D'}"
           # end of optional handling for multi line json
           echo "::set-output name=packageJson::$content"
+      - run: |
+          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
           VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}
 
       - name: Checkout code

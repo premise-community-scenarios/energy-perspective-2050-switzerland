@@ -39,8 +39,18 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
-      - name: fetch version
-        run: VERSION=$(python version.py)
+      - id: set_var
+        run: |
+          content=`cat ./datapackage.json`
+          # the following lines are only required for multi line json
+          content="${content//'%'/'%25'}"
+          content="${content//$'\n'/'%0A'}"
+          content="${content//$'\r'/'%0D'}"
+          # end of optional handling for multi line json
+          echo "::set-output name=packageJson::$content"
+      - run: |
+          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
+          VERSION = "${{fromJson(steps.set_var.outputs.packageJson).version}}"
 
       - name: Create Release
         id: create_release
@@ -48,8 +58,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: v.VERSION
-          release_name: v.VERSION
+          tag_name: v.$VERSION
+          release_name: v.$VERSION
           body: Scenario update
           draft: false
           prerelease: false

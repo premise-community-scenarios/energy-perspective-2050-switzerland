@@ -36,6 +36,8 @@ jobs:
     #needs: test
 
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
 
       - id: set_var
         run: |
@@ -50,18 +52,11 @@ jobs:
           echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
           VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}
 
-      - name: Checkout code
-        uses: actions/checkout@v2
-
       - name: Create Release
         id: create_release
         uses: actions/create-release@v1
-
-
-
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
         with:
           tag_name: v.$VERSION
           release_name: v.$VERSION

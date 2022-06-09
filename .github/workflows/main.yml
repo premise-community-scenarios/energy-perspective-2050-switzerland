@@ -29,6 +29,7 @@ jobs:
       - name: Run tests
         run: pytest
 
+
   release:
     name: Create Release
     runs-on: ubuntu-latest
@@ -49,9 +50,7 @@ jobs:
           # end of optional handling for multi line json
           echo "::set-output name=packageJson::$content"
       - run: |
-          echo "${{fromJson(steps.set_var.outputs.packageJson).version}}"
-        env:
-          VERSION: "${{fromJson(steps.set_var.outputs.packageJson).version}}"
+          echo "VERSION=${{fromJson(steps.set_var.outputs.packageJson).version}}" >> $GITHUB_ENV
 
       - name: Create Release
         id: create_release
@@ -59,8 +58,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tag_name: VERSION
-          release_name: VERSION
+          tag_name: $VERSION
+          release_name: $VERSION
           body: Scenario update
           draft: false
           prerelease: false

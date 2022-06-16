@@ -29,6 +29,21 @@ image,SSP2-RCP26,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1
 image,SSP2-RCP26,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
 image,SSP2-RCP26,CH,Transmission losses|Electricity|Medium to high,PJ/year,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
 image,SSP2-RCP26,CH,Distribution losses|Electricity|Low to medium,PJ/year,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
+image,SSP2-RCP19,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
+image,SSP2-RCP19,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
+image,SSP2-RCP19,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
+image,SSP2-RCP19,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
+image,SSP2-RCP19,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
+image,SSP2-RCP19,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,2.081,4.37,8.021,12.126,15.568,15.568,15.568,15.568,15.568,15.568
+image,SSP2-RCP19,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,2.242,4.721,7.2,7.2,7.2,7.2,7.2,7.2
+image,SSP2-RCP19,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.994,0.976,0.95,0.839,0.767,0.626,0.587,0.587,0.587,0.587,0.587,0.587
+image,SSP2-RCP19,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.082,1.082,0.95,1.109,1.253,1.246,1.246,1.246,1.246,1.246,1.246
+image,SSP2-RCP19,CH,Production|Electricity|Medium to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-RCP19,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-RCP19,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Transmission losses|Electricity|Medium to high,PJ/year,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
+image,SSP2-RCP19,CH,Distribution losses|Electricity|Low to medium,PJ/year,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0
@@ -49,6 +64,16 @@ image,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Wind tur
 image,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
 image,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
 image,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.36,674.64,680.76,677.16,692.64,702,712.44,712.44,712.44,712.44,712.44,712.44
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1668.96,1369.44,1047.96,551.16,205.56,106.56,19.08,19.08,19.08,19.08,19.08,19.08
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,686.16,576.36,247.32,40.68,0,0,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,747.72,634.32,712.8,932.76,808.92,622.8,556.56,556.56,556.56,556.56,556.56,556.56
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,222.12,216.72,200.52,205.2,228.96,260.64,247.32,247.32,247.32,247.32,247.32,247.32
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,334.8,592.2,984.24,1406.16,1899.72,2437.2,2939.76,2939.76,2939.76,2939.76,2939.76,2939.76
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore,PJ/year,615.24,774.72,1075.68,1343.88,1676.88,1926.36,2125.08,2125.08,2125.08,2125.08,2125.08,2125.08
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
+image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
 remind,SSP2-Base,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
 remind,SSP2-Base,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
 remind,SSP2-Base,CH,Production|Electricity|Nuclear,PJ/year,79.366,60.257,32.267,0,0,0,0,0,0,0,0,0
@@ -64,21 +89,36 @@ remind,SSP2-Base,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1
 remind,SSP2-Base,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
 remind,SSP2-Base,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
 remind,SSP2-Base,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
-remind,SSP2-RCP26,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
-remind,SSP2-RCP26,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
-remind,SSP2-RCP26,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
-remind,SSP2-RCP26,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
-remind,SSP2-RCP26,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
-remind,SSP2-RCP26,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
-remind,SSP2-RCP26,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,2.081,4.37,8.021,12.126,15.568,15.568,15.568,15.568,15.568,15.568
-remind,SSP2-RCP26,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,2.242,4.721,7.2,7.2,7.2,7.2,7.2,7.2
-remind,SSP2-RCP26,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.994,0.976,0.95,0.839,0.767,0.626,0.587,0.587,0.587,0.587,0.587,0.587
-remind,SSP2-RCP26,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.082,1.082,0.95,1.109,1.253,1.246,1.246,1.246,1.246,1.246,1.246
-remind,SSP2-RCP26,CH,Production|Electricity|Medium to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-remind,SSP2-RCP26,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
-remind,SSP2-RCP26,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
-remind,SSP2-RCP26,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
-remind,SSP2-RCP26,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,2.081,4.37,8.021,12.126,15.568,15.568,15.568,15.568,15.568,15.568
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,2.242,4.721,7.2,7.2,7.2,7.2,7.2,7.2
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.994,0.976,0.95,0.839,0.767,0.626,0.587,0.587,0.587,0.587,0.587,0.587
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.082,1.082,0.95,1.109,1.253,1.246,1.246,1.246,1.246,1.246,1.246
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Medium to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
+remind,SSP2-PkBudg1100,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
+remind,SSP2-PkBudg900,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
+remind,SSP2-PkBudg900,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
+remind,SSP2-PkBudg900,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
+remind,SSP2-PkBudg900,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
+remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
+remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Wind turbines|Onshore,PJ/year,0.612,1.152,2.081,4.37,8.021,12.126,15.568,15.568,15.568,15.568,15.568,15.568
+remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Geothermal,PJ/year,0,0.011,0.168,0.259,2.242,4.721,7.2,7.2,7.2,7.2,7.2,7.2
+remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Biomass,PJ/year,0.994,0.976,0.95,0.839,0.767,0.626,0.587,0.587,0.587,0.587,0.587,0.587
+remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Biogas,PJ/year,1.086,1.082,1.082,0.95,1.109,1.253,1.246,1.246,1.246,1.246,1.246,1.246
+remind,SSP2-PkBudg900,CH,Production|Electricity|Medium to high,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg900,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg900,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
+remind,SSP2-PkBudg900,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0
@@ -89,13 +129,23 @@ remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Renewable|Wind tur
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,127.027,210.495,297.586,388.655,395.81,593.401,692.669,692.669,692.669,692.669,692.669,692.669
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,219.931,232.164,242.87,226.044,202.997,179.276,159.577,159.577,159.577,159.577,159.577,159.577
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-175.262,-84.283,-58.32,111.377,229.468,187.812,143.633,143.633,143.633,143.633,143.633,143.633
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.36,674.64,680.76,677.16,692.64,702,712.44,712.44,712.44,712.44,712.44,712.44
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1668.96,1369.44,1047.96,551.16,205.56,106.56,19.08,19.08,19.08,19.08,19.08,19.08
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,686.16,576.36,247.32,40.68,0,0,0,0,0,0,0,0
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,747.72,634.32,712.8,932.76,808.92,622.8,556.56,556.56,556.56,556.56,556.56,556.56
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,222.12,216.72,200.52,205.2,228.96,260.64,247.32,247.32,247.32,247.32,247.32,247.32
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,334.8,592.2,984.24,1406.16,1899.72,2437.2,2939.76,2939.76,2939.76,2939.76,2939.76,2939.76
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore,PJ/year,615.24,774.72,1075.68,1343.88,1676.88,1926.36,2125.08,2125.08,2125.08,2125.08,2125.08,2125.08
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
-remind,SSP2-RCP26,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.36,674.64,680.76,677.16,692.64,702,712.44,712.44,712.44,712.44,712.44,712.44
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1668.96,1369.44,1047.96,551.16,205.56,106.56,19.08,19.08,19.08,19.08,19.08,19.08
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,686.16,576.36,247.32,40.68,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,747.72,634.32,712.8,932.76,808.92,622.8,556.56,556.56,556.56,556.56,556.56,556.56
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,222.12,216.72,200.52,205.2,228.96,260.64,247.32,247.32,247.32,247.32,247.32,247.32
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,334.8,592.2,984.24,1406.16,1899.72,2437.2,2939.76,2939.76,2939.76,2939.76,2939.76,2939.76
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore,PJ/year,615.24,774.72,1075.68,1343.88,1676.88,1926.36,2125.08,2125.08,2125.08,2125.08,2125.08,2125.08
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.36,674.64,680.76,677.16,692.64,702,712.44,712.44,712.44,712.44,712.44,712.44
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1668.96,1369.44,1047.96,551.16,205.56,106.56,19.08,19.08,19.08,19.08,19.08,19.08
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,686.16,576.36,247.32,40.68,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Natural gas,PJ/year,747.72,634.32,712.8,932.76,808.92,622.8,556.56,556.56,556.56,556.56,556.56,556.56
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy,PJ/year,222.12,216.72,200.52,205.2,228.96,260.64,247.32,247.32,247.32,247.32,247.32,247.32
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Renewable|Photovoltaic,PJ/year,334.8,592.2,984.24,1406.16,1899.72,2437.2,2939.76,2939.76,2939.76,2939.76,2939.76,2939.76
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore,PJ/year,615.24,774.72,1075.68,1343.88,1676.88,1926.36,2125.08,2125.08,2125.08,2125.08,2125.08,2125.08
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore,PJ/year,156.24,325.8,596.16,876.96,1234.8,1554.48,1797.84,1797.84,1797.84,1797.84,1797.84,1797.84
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,PJ/year,222.84,233.64,235.8,213.48,168.84,133.56,110.16,110.16,110.16,110.16,110.16,110.16
+remind,SSP2-PkBudg900,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16

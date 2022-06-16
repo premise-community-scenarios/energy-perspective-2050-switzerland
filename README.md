@@ -1,12 +1,13 @@
-# scenario-example-bread ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/scenario-example-bread) [![DOI](https://zenodo.org/badge/496564841.svg)](https://zenodo.org/badge/latestdoi/496564841)
+# energy-perspective-2050-switzerland ![GitHub release (latest by date)](https://img.shields.io/github/v/release/premise-community-scenarios/energy-perspective-2050-switzerland) [![DOI](https://zenodo.org/badge/496564841.svg)](https://zenodo.org/badge/latestdoi/496564841)
 
 
 Description
 -----------
 
-This is an example of a repository containing a custom prospective scenario for breadmaking, to be used in premise.
+This is a repository containing a scenario that implements the projection of the Energy Perspective 2050+ report for electricity, hydrogen, gas and liquid fuels.
+
 This is a data package that contains all the files necessary for premise to implement
-this custom scenario. This is a dummy scenario to illustrate the principle of custom scenarios and their use alongside IAM scenarios.
+this scenario.
 
 Sourced from publication
 ------------------------
@@ -16,12 +17,12 @@ None
 Data validation 
 ---------------
 
-Goodtables.io [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/scenario-example-bread.svg)](https://goodtables.io/github/premise-community-scenarios/scenario-example-bread)
+Goodtables.io [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/energy-perspective-2050-switzerland.svg)](https://goodtables.io/github/premise-community-scenarios/energy-perspective-2050-switzerland)
 
 Test 
 ----
 
-GitHubAction ![example workflow](https://github.com/premise-community-scenarios/scenario-example-bread/actions/workflows/main.yml/badge.svg?branch=main)
+GitHubAction ![example workflow](https://github.com/premise-community-scenarios/energy-perspective-2050-switzerland/actions/workflows/main.yml/badge.svg?branch=main)
 
 
 Ecoinvent database compatibility
@@ -35,6 +36,11 @@ IAM scenario compatibility
 Compatible with the following IAM scenarios:
 * IMAGE SSP2-Base
 * IMAGE SSP2-RCP26
+* IMAGE SSP2-RCP19
+* REMIND SSP2-Base
+* REMIND SSP2-PkBudg1300
+* REMIND SSP2-PkBudg1100
+* REMIND SSP2-PkBudg900
 
 How to use it?
 --------------
@@ -46,8 +52,8 @@ How to use it?
     from datapackage import Package
     
     
-    fp = r"https://raw.githubusercontent.com/premise-community-scenarios/scenario-example-bread/main/datapackage.json"
-    bread_scenario = Package(fp)
+    fp = r"https://raw.githubusercontent.com/premise-community-scenarios/energy-perspective-2050-switzerland/main/datapackage.json"
+    ep2050 = Package(fp)
     
     bw.projects.set_current("your_bw_project")
     
@@ -60,7 +66,7 @@ How to use it?
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
             custom_scenario=[
-                bread_scenario, # <-- list datapackage objects here
+                ep2050, # <-- list datapackage objects here
             ] 
         )
 ```

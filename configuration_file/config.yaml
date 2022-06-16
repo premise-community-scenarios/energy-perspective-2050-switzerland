@@ -1,197 +1,293 @@
 # Configuration file for custom scenarios for `premise`
-
-# in this example, we have three technologies: ADD, SDM, DSM
-# to represent bread baking
-# these technologies will be made specific to each IAM region, unless
-# exception are specified
-# then, market for bread will be created for each IAM region
+# Energy Perspective Scenario 2050+
+# https://www.bfe.admin.ch/bfe/en/home/policy/energy-perspectives-2050-plus.html/
 
 ---
 
-# `production pathways` lists the different technologies
 production pathways:
-  # name given to a technology: this name is internal to premise
-  ADD:
-    # variables to look for in the scenario_data file to fetch production volumes
-    # values fetched from the scenario_data file as production volumes are used to calculate
-    # the supply share if markets are to be built
+  hydro_run_of_river:
     production volume:
-      # `variable` in `production volume` refers to the variable name in the scenario_data file
-      variable: Production|Baking|Bread|Activated Dough Development
-    # OPTIONAL: `efficiency` and underlying `variable` refers to the values to look for in the scenario_data file
-    # if the technology is believed to improve over time.
-    efficiency:
-      - variable: Efficiency|Baking|Bread|Activated Dough Development (Elec and steam)
-        # OPTIONAL: reference year to calculate efficiency delta from
-        reference year: 2025
-        # OPTIONAL: `includes` is optional, and indicates if the efficiency gains apply only on certain input or flows
-        # of the dataset
-        includes:
-          # efficiency gains will only apply to flows whose name contains `electricity`
-          technosphere:
-            - electricity
-          # efficiency gains will only apply to flows whose name contains `Water`
-          # case sensitive!!!
-          biosphere:
-            - Water
-      - variable: Efficiency|Baking|Bread|Activated Dough Development (Salt)
-        # OPTIONAL: `includes` is optional, and indicates if the efficiency gains apply only on certain input or flows
-        # of the dataset
-        includes:
-          # efficiency gains will only apply to flows whose name contains `electricity`
-          technosphere:
-            - salt
-    # dataset in the imported inventories that represents the technology
+      variable: Production|Electricity|Run-of-river hydro
     ecoinvent alias:
-      # name of the dataset
-      name: bread production, activated dough development
-      # reference product of the dataset
-      reference product: bread
-    # OPTIONAL: if the dataset should not be duplicated for a specific list of regions
-    # in this case, the dataset will not be duplicated for the IAM region "BRA"
-
-    except regions:
-      - BRA
-  SDM:
+      name: electricity production, hydro, run-of-river
+      reference product: electricity, high voltage
+      exists in original database: True
+ 
+  hydro_reservoir:
     production volume:
-      variable: Production|Baking|Bread|Straight Dough Method
-    efficiency:
-      - variable: Efficiency|Baking|Bread|Straight Dough Method
+      variable: Production|Electricity|Reservoir
     ecoinvent alias:
-      name: bread production, straight dough method
-      reference product: bread
-    except regions:
-      - USA
+      name: electricity production, hydro, reservoir, alpine region
+      reference product: electricity, high voltage
+      exists in original database: True
 
-  DSM:
+  nuclear:
     production volume:
-      variable: Production|Baking|Bread|Delayed Salt Method
-    efficiency:
-      - variable: Efficiency|Baking|Bread|Delayed Salt Method
+      variable: Production|Electricity|Nuclear
     ecoinvent alias:
-      name: bread production, delayed salt method
-      reference product: bread
-    except regions:
-      - WEU
-      - USA
-    # OPTIONAL: if the dataset should replace one or several specific providers in the database
-    # in this case, `bread production, delayed salt method` will replace
-    # `NMC111 hydroxide production, for Li-ion battery` wherever it is used
-    replaces:
-      - name: NMC111 hydroxide production, for Li-ion battery
-        reference product: NMC111 hydroxide
-    replaces in:
-      - name: market for NMC111 hydroxide
-        reference product: NMC111 hydroxide
-    # OPTIONAL: if the new dataset replaces another, but the substitution ratio is not 1:1
-    # it can be specified here
-    replacement ratio: 0.75
+      name: electricity production, nuclear, boiling water reactor
+      reference product: electricity, high voltage
+      exists in original database: True
 
-  BC:
+  conventional_waste:
     production volume:
-      variable: Production|Baking|Bread|Breadcrumbs
+      variable: Production|Electricity|Conventional|Waste-to-Energy
     ecoinvent alias:
-      name: breadcrumbs production
-      reference product: breadcrumbs
-      exists in ecoinvent: True
+      name: treatment of municipal solid waste, incineration
+      reference product: electricity, for reuse in municipal waste incineration only
+      exists in original database: True
 
-  CP:
+  conventional_other:
     production volume:
-      variable: Production|Copper|Cake
+      variable: Production|Electricity|Conventional|Other
     ecoinvent alias:
-      name: cobalt production
-      reference product: copper cake
-      exists in ecoinvent: True
+      name: electricity production, natural gas, combined cycle power plant
+      reference product: electricity, high voltage
+      exists in original database: True
 
-  ALM:
+  pv:
     production volume:
-      variable: Production|Almond
+      variable: Production|Electricity|Renewable|Photovoltaic
     ecoinvent alias:
-      name: almond production
-      reference product: almond
-      exists in ecoinvent: True
+      name: electricity production, photovoltaic
+      reference product: electricity, low voltage
+      exists in original database: True
 
-  BAN:
+  wind:
     production volume:
-      variable: Production|Banana
+      variable: Production|Electricity|Renewable|Wind turbines|Onshore
     ecoinvent alias:
-      name: banana production
-      reference product: banana
-      exists in ecoinvent: True
-    efficiency:
-      - variable: Efficiency|Banana|Urea
-        reference year: 2030
-        includes:
-          technosphere:
-            - market for urea
-          biosphere:
-            - Dinitrogen monoxide
+      name: electricity production, wind, >3MW turbine, onshore, renewable energy products
+      reference product: electricity, high voltage, renewable energy products
+      exists in original database: True
 
-# OPTIONAL: if a market needs to be created
+  geothermal:
+    production volume:
+      variable: Production|Electricity|Renewable|Geothermal
+    ecoinvent alias:
+      name: electricity production, deep geothermal
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  biomass:
+    production volume:
+      variable: Production|Electricity|Renewable|Biomass
+    ecoinvent alias:
+      name: heat and power co-generation, wood chips, 6667 kW
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  biogas:
+    production volume:
+      variable: Production|Electricity|Renewable|Biogas
+    ecoinvent alias:
+      name: heat and power co-generation, biogas, gas engine
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  import:
+    production volume:
+      variable: Production|Electricity|Import
+    ecoinvent alias:
+      name: import from neighboring countries
+      reference product: electricity, high voltage
+      exists in original database: False
+      new dataset: True
+
+  medium_to_high:
+    production volume:
+      variable: Production|Electricity|Medium to high
+    ecoinvent alias:
+      name: market for electricity, high voltage, EP2050
+      reference product: electricity, high voltage
+      exists in original database: False
+      new dataset: True
+    
+
+  low_to_medium:
+    production volume:
+      variable: Production|Electricity|Low to medium
+    ecoinvent alias:
+      name: market for electricity, medium voltage, EP2050
+      reference product: electricity, medium voltage
+      exists in original database: False
+      new dataset: True
+    
+
+
+  neighbors_hydro_reservoir:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Reservoir
+    ecoinvent alias:
+      name: electricity production, hydro, reservoir, alpine region
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_nuclear:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Nuclear
+    ecoinvent alias:
+      name: electricity production, nuclear, boiling water reactor
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_coal:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Coal
+    ecoinvent alias:
+      name: electricity production, hard coal
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_conventional_ng:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Natural gas
+    ecoinvent alias:
+      name: electricity production, natural gas, combined cycle power plant
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_conventional_waste:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Conventional|Waste-to-Energy
+    ecoinvent alias:
+      name: treatment of municipal solid waste, incineration
+      reference product: electricity, for reuse in municipal waste incineration only
+      exists in original database: True
+
+  neighbors_pv:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Renewable|Photovoltaic
+    ecoinvent alias:
+      name: electricity production, photovoltaic
+      reference product: electricity, low voltage
+      exists in original database: True
+
+  neighbors_wind_on:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Renewable|Wind turbines|Onshore
+    ecoinvent alias:
+      name: electricity production, wind, >3MW turbine, onshore
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_wind_off:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Renewable|Wind turbines|Offshore
+    ecoinvent alias:
+      name: electricity production, wind, 1-3MW turbine, offshore
+      reference product: electricity, high voltage
+      exists in original database: True
+  
+  neighbors_biomass:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Renewable|Biomass
+    ecoinvent alias:
+      name: heat and power co-generation, wood chips, 6667 kW
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  neighbors_import:
+    production volume:
+      variable: Production|Electricity|Neighbor countries|Import
+    ecoinvent alias:
+      name: market group for electricity, high voltage
+      reference product: electricity, high voltage
+      exists in original database: True
+  
+
 markets:
-    # name of the market dataset
-  - name: market for bread
-    # reference product of the market dataset
-    reference product: bread
-    # unit of the market dataset
-    unit: kilogram
-    # names of datasets that should compose the market
-    includes:
-      - name: bread production, activated dough development
-        reference product: bread
-      - name: bread production, straight dough method
-        reference product: bread
-      - name: bread production, delayed salt method
-        reference product: bread
-      - name: breadcrumbs production
-        reference product: breadcrumbs
-    # OPTIONAL: if the new market is supposed to replace one or several other providers
-    # in the database.
-    # in this case, `market for bread` will replace providers of carbon back and clay bricks.
-    replaces:
-      - name: market for carbon black
-        reference product: carbon black
-      - name: market for clay brick
-        reference product: clay brick
-    # OPTIONAL: if the substitution ratio between `market for bread` and the providers to be replaced
-    # is not 1:1, then a replacement ratio can be specified
-    replacement ratio: 1.05
-    # OPTIONAL: if the new market should not be created for all IAM region, this can be specified here
-    except regions:
-      - JAP
-  - name: market for croissants
-    # reference product of the market dataset
-    reference product: croissants
-    # unit of the market dataset
-    unit: kilogram
-    # names of datasets that should compose the market
-    includes:
-      - name: cobalt production
-        reference product: copper cake
-      - name: almond production
-        reference product: almond
-      - name: banana production
-        reference product: banana
-      - name: breadcrumbs production
-        reference product: breadcrumbs
-    # OPTIONAL: if the new market is supposed to replace one or several other providers
-    # in the database.
-    # in this case, `market for croissants` will replace providers of carbon back and clay bricks.
-    # case insensitive, must contain this string in `name`and `reference product`
-    replaces:
-      - name: market for tap water
-        reference product: tap water
-      - name: market for cement, Portland
-        reference product: cement, Portland
-    replaces in:
-      - name: concrete production
-        reference product: concrete
-      - name: electricity production
-        reference product: electricity
 
-    # OPTIONAL: if the substitution ratio between `market for bread` and the providers to be replaced
-    # is not 1:1, then a replacement ratio can be specified
-    replacement ratio: 1.15
-    # OPTIONAL: if the new market should not be created for all IAM region, this can be specified here
+  - name: import from neighboring countries
+    reference product: electricity, high voltage
+    unit: kilowatt hour
+    includes:
+      - neighbors_hydro_reservoir
+      - neighbors_nuclear
+      - neighbors_coal
+      - neighbors_conventional_ng
+      - conventional_waste
+      - neighbors_pv
+      - neighbors_wind_on
+      - neighbors_wind_off
+      - neighbors_biomass
+      - neighbors_import
+    
     except regions:
-      - JAP
+      - World
+
+  - name: market for electricity, high voltage, EP2050
+    reference product: electricity, high voltage
+    unit: kilowatt hour
+    includes:
+      - hydro_run_of_river
+      - hydro_reservoir
+      - nuclear
+      - conventional_waste
+      - conventional_other
+      - pv
+      - wind
+      - geothermal
+      - biomass
+      - biogas
+      - import
+
+    replaces:
+      - name: market for electricity, high voltage
+        reference product: electricity, high voltage
+
+    replaces in:
+      - location: CH
+
+    except regions:
+      - World
+
+  - name: market for electricity, medium voltage, EP2050
+    reference product: electricity, medium voltage
+    unit: kilowatt hour
+    includes:
+      - medium_to_high
+
+    efficiency:
+      - variable: Transmission losses|Electricity|Medium to high
+
+    replaces:
+      - name: market for electricity, medium voltage
+        reference product: electricity, medium voltage
+
+    replaces in:
+      - location: CH
+
+    except regions:
+      - World
+
+  - name: market for electricity, low voltage, EP2050
+    reference product: electricity, low voltage
+    unit: kilowatt hour
+    includes:
+      - low_to_medium
+
+    efficiency:
+      - variable: Distribution losses|Electricity|Low to medium
+
+    replaces:
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+
+    replaces in:
+      - location: CH
+
+    except regions:
+      - World
+
+  
+
+
+  
+
+  
+  
+
+
+
+  

@@ -1,9 +1,9 @@
 {
     "profile": "data-package",
-    "name": "scenario-example-bread",
-    "title": "Scenario Example Bread",
-    "description": "A scenario example of prospective bread scenario to be used in premise",
-    "version": "0.0.2",
+    "name": "energy-perspective-2050-switzerland",
+    "title": "Energy Perspective 2050 + scenario implementation",
+    "description": "Implementation of BAU and ZERO scenario from Energy Perspective 2050 +",
+    "version": "0.0.1",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"
@@ -66,21 +66,6 @@
                         "format": "default"
                     },
                     {
-                        "name": "2005",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2010",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "2015",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
                         "name": "2020",
                         "type": "number",
                         "format": "default"
@@ -138,61 +123,6 @@
                     {
                         "name": "2100",
                         "type": "number",
-                        "format": "default"
-                    }
-                ],
-                "missingValues": [
-                    ""
-                ]
-            }
-        },
-        {
-            "path": "inventories/lci-bread.csv",
-            "profile": "data-resource",
-            "name": "inventories",
-            "format": "csv",
-            "mediatype": "text/csv",
-            "encoding": "utf-8",
-            "schema": {
-                "fields": [
-                    {
-                        "name": "name",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "amount",
-                        "type": "number",
-                        "format": "default"
-                    },
-                    {
-                        "name": "database",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "location",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "categories",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "unit",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "type",
-                        "type": "string",
-                        "format": "default"
-                    },
-                    {
-                        "name": "reference product",
-                        "type": "string",
                         "format": "default"
                     }
                 ],

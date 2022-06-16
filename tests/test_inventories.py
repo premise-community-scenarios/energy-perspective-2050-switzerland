@@ -33,7 +33,7 @@ def test_inventories():
                     ]
                 )
                 == 0
-            ) and not v["ecoinvent alias"].get("exists in ecoinvent"):
+            ) and not v["ecoinvent alias"].get("exists in original database"):
                 raise ValueError(
                     f"The inventories provided do not contain the activity: {name, ref}"
                 )

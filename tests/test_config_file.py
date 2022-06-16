@@ -30,7 +30,8 @@ def test_config_file():
                     "ecoinvent alias": {
                         "name": str,
                         "reference product": str,
-                        Optional("exists in ecoinvent"): bool,
+                        Optional("exists in original database"): bool,
+                        Optional("new dataset"): bool,
                     },
                     Optional("efficiency"): [
                         {
@@ -53,7 +54,11 @@ def test_config_file():
                     ),
                     Optional("replaces"): [{"name": str, "reference product": str}],
                     Optional("replaces in"): [
-                        {"name": str, "reference product": str}
+                        {
+                            Optional("name"): str,
+                            Optional("reference product"): str,
+                            Optional("location"): str,
+                        }
                     ],
                     Optional("replacement ratio"): float,
                 },
@@ -63,7 +68,13 @@ def test_config_file():
                     "name": str,
                     "reference product": str,
                     "unit": str,
-                    "includes": [{"name": str, "reference product": str}],
+                    "includes": And(
+                        list,
+                        Use(list),
+                        lambda s: all(
+                            i in config_file["production pathways"] for i in s
+                        ),
+                    ),
                     Optional("except regions"): And(
                         list,
                         Use(list),
@@ -73,9 +84,25 @@ def test_config_file():
                     ),
                     Optional("replaces"): [{"name": str, "reference product": str}],
                     Optional("replaces in"): [
-                        {"name": str, "reference product": str}
+                        {
+                            Optional("name"): str,
+                            Optional("reference product"): str,
+                            Optional("location"): str,
+                        }
                     ],
                     Optional("replacement ratio"): float,
+                    Optional("efficiency"): [
+                        {
+                            "variable": str,
+                            Optional("reference year"): And(
+                                Use(int), lambda n: 2005 <= n <= 2100
+                            ),
+                            Optional("includes"): {
+                                Optional("technosphere"): list,
+                                Optional("biosphere"): list,
+                            },
+                        }
+                    ],
                 }
             ],
         }
@@ -87,25 +114,29 @@ def test_config_file():
         # check that providers composing the market
         # are listed
 
-        for market in config_file["markets"]:
+        if "markets" in config_file:
+            # check that providers composing the market
+            # are listed
 
-            market_providers = [
-                (a["name"], a["reference product"]) for a in market["includes"]
-            ]
+            for market in config_file["markets"]:
 
-            listed_providers = [
-                (
-                    a["ecoinvent alias"]["name"],
-                    a["ecoinvent alias"]["reference product"],
-                )
-                for a in config_file["production pathways"].values()
-            ]
-
-            if any([i not in listed_providers for i in market_providers]):
-                raise ValueError(
-                    "One of more providers listed under `markets/includes` is/are not listed "
-                    "under `production pathways`."
-                )
+                try:
+                    market_providers = [
+                        (
+                            config_file["production pathways"][a]["ecoinvent alias"][
+                                "name"
+                            ],
+                            config_file["production pathways"][a]["ecoinvent alias"][
+                                "reference product"
+                            ],
+                        )
+                        for a in market["includes"]
+                    ]
+                except KeyError:
+                    raise ValueError(
+                        "One of more providers listed under `markets/includes` is/are not listed "
+                        "under `production pathways`."
+                    )
 
 
 def get_recursively(search_dict, field):

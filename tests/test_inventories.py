@@ -5,36 +5,36 @@ from datapackage import Package
 FILEPATH_DATAPACKAGE_SCHEMA = "./datapackage.json"
 dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
 
-for resource in dp.resources:
-    if resource.name == "inventories":
-        i = bw2io.CSVImporter(resource.descriptor["path"])
+if dp.get_resource("inventories"):
+    i = bw2io.CSVImporter(dp.get_resource("inventories").source)
 
-    if resource.name == "config":
-        with open(resource.descriptor["path"], "r") as stream:
-            config_file = yaml.safe_load(stream)
+    resource = dp.get_resource("config")
+    with open(resource.source, "r") as stream:
+        config_file = yaml.safe_load(stream)
 
 def test_length():
-    assert len(i.data) > 0
+    if dp.get_resource("inventories"):
+        assert len(i.data) > 0
 
 
 def test_inventories():
+    if dp.get_resource("inventories"):
+        for k, v in config_file["production pathways"].items():
 
-    for k, v in config_file["production pathways"].items():
+            name = v["ecoinvent alias"]["name"]
+            ref = v["ecoinvent alias"]["reference product"]
 
-        name = v["ecoinvent alias"]["name"]
-        ref = v["ecoinvent alias"]["reference product"]
-
-        if (
-            len(
-                [
-                    a
-                    for a in i.data
-                    if (name, ref) == (a["name"], a["reference product"])
-                ]
-            )
-            == 0
-        ) and not v["ecoinvent alias"].get("exists in ecoinvent"):
-            raise ValueError(
-                f"The inventories provided do not contain the activity: {name, ref}"
-            )
+            if (
+                len(
+                    [
+                        a
+                        for a in i.data
+                        if (name, ref) == (a["name"], a["reference product"])
+                    ]
+                )
+                == 0
+            ) and not v["ecoinvent alias"].get("exists in ecoinvent"):
+                raise ValueError(
+                    f"The inventories provided do not contain the activity: {name, ref}"
+                )
 

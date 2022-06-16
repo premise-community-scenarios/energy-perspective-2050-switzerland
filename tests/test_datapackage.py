@@ -7,7 +7,7 @@ FILEPATH_DATAPACKAGE_SCHEMA = "./datapackage.json"
 def test_datapackage():
     dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
     assert dp.descriptor["profile"] == "data-package"
-    assert len(dp.resources) == 3
+    assert len(dp.resources) >= 2
 
     mandatory_keys  = [
         'profile',

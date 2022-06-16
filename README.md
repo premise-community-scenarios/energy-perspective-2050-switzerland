@@ -7,7 +7,8 @@ Description
 This is a repository containing a scenario that implements the projection of the Energy Perspective 2050+ report for electricity, hydrogen, gas and liquid fuels.
 
 This is a data package that contains all the files necessary for premise to implement
-this scenario.
+this scenario and create market-specific composition for electricity (including imports from
+neighboring countries), liquid and gaseous fuels (including hydrogen).
 
 Sourced from publication
 ------------------------

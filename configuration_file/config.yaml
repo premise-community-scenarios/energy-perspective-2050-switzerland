@@ -249,11 +249,11 @@ markets:
         amount: 6.58e-09
 
       - name: Dinitrogen monoxide
-        categories: air::unspecified
+        categories: air
         amount: 5.0e-06
 
       - name: Ozone
-        categories: air::unspecified
+        categories: air
         amount: 4.16e-06
 
     replaces:
@@ -282,7 +282,7 @@ markets:
         amount: 1.86e-08
 
       - name: Sulfur hexafluoride
-        categories: air::unspecified
+        categories: air
         amount: 5.4e-08
 
     efficiency:
@@ -314,7 +314,7 @@ markets:
         amount: 8.74e-08
 
       - name: Sulfur hexafluoride
-        categories: air::unspecified
+        categories: air
         amount: 2.99e-09
 
     efficiency:

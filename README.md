@@ -20,12 +20,12 @@ https://www.bfe.admin.ch/bfe/en/home/policy/energy-perspectives-2050-plus.html/
 Data validation 
 ---------------
 
-Goodtables.io [![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/energy-perspective-2050-switzerland.svg)](https://goodtables.io/github/premise-community-scenarios/energy-perspective-2050-switzerland)
+[![goodtables.io](https://goodtables.io/badge/github/premise-community-scenarios/energy-perspective-2050-switzerland.svg)](https://goodtables.io/github/premise-community-scenarios/energy-perspective-2050-switzerland)
 
 Test 
 ----
 
-GitHubAction ![example workflow](https://github.com/premise-community-scenarios/energy-perspective-2050-switzerland/actions/workflows/main.yml/badge.svg?branch=main)
+![example workflow](https://github.com/premise-community-scenarios/energy-perspective-2050-switzerland/actions/workflows/main.yml/badge.svg?branch=main)
 
 
 Ecoinvent database compatibility

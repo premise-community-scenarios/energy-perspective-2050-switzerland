@@ -4,18 +4,18 @@
 Description
 -----------
 
-This is a repository containing a scenario that implements the projection of the 
+This is a repository containing a scenario that implements the projections of the 
 Energy Perspective 2050+ report for:
 
 * electricity, 
 * hydrogen, 
-* gas 
+* gas, 
 * and liquid fuels. 
 
 It is meant to be used in `premise` in addition to a global IAM scenario, to provide 
 refined projections at the country level.
 
-This is data package that contains all the files necessary for `premise` to implement
+This data package contains all the files necessary for `premise` to implement
 this scenario and create market-specific composition for electricity (including imports from
 neighboring countries), liquid and gaseous fuels (including hydrogen).
 
@@ -36,7 +36,6 @@ Test
 
 ![example workflow](https://github.com/premise-community-scenarios/energy-perspective-2050-switzerland/actions/workflows/main.yml/badge.svg?branch=main)
 
-
 Ecoinvent database compatibility
 --------------------------------
 
@@ -45,7 +44,7 @@ ecoinvent 3.8 cut-off
 IAM scenario compatibility
 ---------------------------
 
-The following coupling is done between IAM and EPD2050+ scenarios:
+The following coupling is done between IAM and EP2050+ scenarios:
 
 * IMAGE SSP2-Base (-> EP2050+ Business As Usual)
 * IMAGE SSP2-RCP26 (-> EP2050+ ZERO Basis)
@@ -59,10 +58,10 @@ What does this add?
 This external scenario creates the markets listed below according
 to the projections from the Energy Perspectives 2050+.
 
-* market for electricity, high voltage, EP2050 (CH)
-* market for electricity, medium voltage, EP2050 (CH)
-* market for electricity, medium voltage, EP2050 (CH)
-* import from neighboring countries, high voltage (CH)
+* `market for electricity, high voltage, EP2050` (CH)
+* `market for electricity, medium voltage, EP2050` (CH)
+* `market for electricity, medium voltage, EP2050` (CH)
+* `import from neighboring countries, high voltage` (CH)
 
 These markets are relinked to activities that consume electricity in Switzerland.
 

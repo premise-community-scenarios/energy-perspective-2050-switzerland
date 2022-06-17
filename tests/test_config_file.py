@@ -13,12 +13,9 @@ FILEPATH_DATAPACKAGE_SCHEMA = "./datapackage.json"
 def test_config_file():
 
     dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
+    resource = dp.get_resource("config")
+    config_file = yaml.safe_load(resource.raw_read())
 
-    for resource in dp.resources:
-        if resource.name == "config":
-            with open(resource.descriptor["path"], "r") as stream:
-                config_file = yaml.safe_load(stream)
-            break
 
     file_schema = Schema(
         {

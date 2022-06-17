@@ -9,8 +9,7 @@ if dp.get_resource("inventories"):
     i = bw2io.CSVImporter(dp.get_resource("inventories").source)
 
     resource = dp.get_resource("config")
-    with open(resource.source, "r") as stream:
-        config_file = yaml.safe_load(stream)
+    config_file = yaml.safe_load(resource.raw_read())
 
 def test_length():
     if dp.get_resource("inventories"):

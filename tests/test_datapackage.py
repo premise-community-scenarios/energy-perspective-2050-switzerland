@@ -30,9 +30,8 @@ def test_datapackage():
 
     for resource in dp.resources:
         if resource.name == "config":
-
-            with open(resource.descriptor["path"], "r") as stream:
-                config_file = yaml.safe_load(stream)
+            resource = dp.get_resource("config")
+            config_file = yaml.safe_load(resource.raw_read())
             assert isinstance(config_file, dict)
 
         if resource.name == "scenario_data":

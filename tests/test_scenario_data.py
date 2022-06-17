@@ -14,8 +14,7 @@ FILEPATH_DATAPACKAGE_SCHEMA = "./datapackage.json"
 dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
 
 resource = dp.get_resource("config")
-with open(resource.source, "r") as stream:
-    config_file = yaml.safe_load(stream)
+config_file = yaml.safe_load(resource.raw_read())
 
 resource = dp.get_resource("scenario_data")
 scenario_data = resource.read()

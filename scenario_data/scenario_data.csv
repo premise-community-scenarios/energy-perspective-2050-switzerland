@@ -1,7 +1,8 @@
 ﻿model,pathway,region,variables,unit,2020,2025,2030,2035,2040,2045,2050,2060,2070,2080,2090,2100
 image,SSP2-Base,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
 image,SSP2-Base,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
-image,SSP2-Base,CH,Production|Electricity|Nuclear,PJ/year,79.366,60.257,32.267,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.30202,28.321,15.165,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.06398,31.936,17.102,0,0,0,0,0,0,0,0,0
 image,SSP2-Base,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.767,6.883,6.998,7.114,7.229,7.345,7.461,7.461,7.461,7.461,7.461,7.461
 image,SSP2-Base,CH,Production|Electricity|Conventional|Other,PJ/year,1.74,2.203,2.463,3.291,3.863,4.955,5.484,5.484,5.484,5.484,5.484,5.484
 image,SSP2-Base,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,14.358,24.446,26.932,29.674,34.129,40.043,40.043,40.043,40.043,40.043,40.043
@@ -16,7 +17,8 @@ image,SSP2-Base,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.92
 image,SSP2-Base,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 image,SSP2-RCP26,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP26,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
-image,SSP2-RCP26,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+image,SSP2-RCP26,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
+image,SSP2-RCP26,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.064,31.623,16.874,0,0,0,0,0,0,0,0,0
 image,SSP2-RCP26,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
 image,SSP2-RCP26,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
 image,SSP2-RCP26,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
@@ -31,7 +33,8 @@ image,SSP2-RCP26,CH,Transmission losses|Electricity|Medium to high,PJ/year,0.926
 image,SSP2-RCP26,CH,Distribution losses|Electricity|Low to medium,PJ/year,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 image,SSP2-RCP19,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP19,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
-image,SSP2-RCP19,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.064,31.623,16.874,0,0,0,0,0,0,0,0,0
 image,SSP2-RCP19,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
 image,SSP2-RCP19,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
 image,SSP2-RCP19,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
@@ -76,7 +79,8 @@ image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Renewable|Biomass,
 image,SSP2-RCP19,CH,Production|Electricity|Neighbor countries|Import,PJ/year,-215.28,-141.12,-159.48,-105.84,-253.44,-436.32,-650.16,-650.16,-650.16,-650.16,-650.16,-650.16
 remind,SSP2-Base,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.002,63.994,63.928,63.119,61.774,59.235,58.097,58.097,58.097,58.097,58.097,58.097
 remind,SSP2-Base,CH,Production|Electricity|Reservoir,PJ/year,76.367,79.679,81.45,79.47,79.556,81.238,82.102,82.102,82.102,82.102,82.102,82.102
-remind,SSP2-Base,CH,Production|Electricity|Nuclear,PJ/year,79.366,60.257,32.267,0,0,0,0,0,0,0,0,0
+remind,SSP2-Base,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.30202,28.321,15.165,0,0,0,0,0,0,0,0,0
+remind,SSP2-Base,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.06398,31.936,17.102,0,0,0,0,0,0,0,0,0
 remind,SSP2-Base,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.767,6.883,6.998,7.114,7.229,7.345,7.461,7.461,7.461,7.461,7.461,7.461
 remind,SSP2-Base,CH,Production|Electricity|Conventional|Other,PJ/year,1.74,2.203,2.463,3.291,3.863,4.955,5.484,5.484,5.484,5.484,5.484,5.484
 remind,SSP2-Base,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,14.358,24.446,26.932,29.674,34.129,40.043,40.043,40.043,40.043,40.043,40.043
@@ -91,7 +95,8 @@ remind,SSP2-Base,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.9
 remind,SSP2-Base,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
-remind,SSP2-PkBudg1100,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.064,31.623,16.874,0,0,0,0,0,0,0,0,0
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006
@@ -106,7 +111,8 @@ remind,SSP2-PkBudg1100,CH,Transmission losses|Electricity|Medium to high,PJ/year
 remind,SSP2-PkBudg1100,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933,0.933
 remind,SSP2-PkBudg900,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg900,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
-remind,SSP2-PkBudg900,CH,Production|Electricity|Nuclear,PJ/year,79.391,59.666,31.838,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Production|Electricity|Nuclear|Pressure water reactor,PJ/year,42.064,31.623,16.874,0,0,0,0,0,0,0,0,0
 remind,SSP2-PkBudg900,CH,Production|Electricity|Conventional|Waste-to-Energy,PJ/year,6.721,6.604,6.5,6.409,6.327,6.255,6.192,6.192,6.192,6.192,6.192,6.192
 remind,SSP2-PkBudg900,CH,Production|Electricity|Conventional|Other,PJ/year,1.693,2.224,2.783,3.481,3.672,3.317,3.285,3.285,3.285,3.285,3.285,3.285
 remind,SSP2-PkBudg900,CH,Production|Electricity|Renewable|Photovoltaic,PJ/year,9.073,15.379,31.24,51.9,77.308,99.918,121.006,121.006,121.006,121.006,121.006,121.006

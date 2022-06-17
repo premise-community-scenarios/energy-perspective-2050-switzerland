@@ -21,11 +21,19 @@ production pathways:
       reference product: electricity, high voltage
       exists in original database: True
 
-  nuclear:
+  nuclear_boiling_water:
     production volume:
-      variable: Production|Electricity|Nuclear
+      variable: Production|Electricity|Nuclear|Boiling water reactor
     ecoinvent alias:
       name: electricity production, nuclear, boiling water reactor
+      reference product: electricity, high voltage
+      exists in original database: True
+
+  nuclear_pressure_water:
+    production volume:
+      variable: Production|Electricity|Nuclear|Pressure water reactor
+    ecoinvent alias:
+      name: electricity production, nuclear, pressure water reactor
       reference product: electricity, high voltage
       exists in original database: True
 
@@ -102,7 +110,6 @@ production pathways:
       reference product: electricity, high voltage
       exists in original database: False
       new dataset: True
-    
 
   low_to_medium:
     production volume:
@@ -112,8 +119,6 @@ production pathways:
       reference product: electricity, medium voltage
       exists in original database: False
       new dataset: True
-    
-
 
   neighbors_hydro_reservoir:
     production volume:

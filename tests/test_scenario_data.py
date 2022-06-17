@@ -16,11 +16,13 @@ dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
 resource = dp.get_resource("config")
 config_file = yaml.safe_load(resource.raw_read())
 
+
 resource = dp.get_resource("scenario_data")
 scenario_data = resource.read()
 scenario_headers = resource.headers
 
 df = pd.DataFrame(scenario_data, columns=scenario_headers)
+
 
 
 def test_scenario_data_file():

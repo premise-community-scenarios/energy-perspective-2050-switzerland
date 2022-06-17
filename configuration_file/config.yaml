@@ -97,7 +97,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Import
     ecoinvent alias:
-      name: import from neighboring countries
+      name: import from neighboring countries electricity, high voltage
       reference product: electricity, high voltage
       exists in original database: False
       new dataset: True

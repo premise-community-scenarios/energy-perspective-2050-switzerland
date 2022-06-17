@@ -61,9 +61,16 @@ to the projections from the Energy Perspectives 2050+.
 * `market for electricity, high voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
-* `import from neighboring countries, high voltage` (CH)
 
 These markets are relinked to activities that consume electricity in Switzerland.
+
+Additional, the Swiss market relies to a varying extent on imports from
+neighboring countries (FR + DE + IT + AT), for which a market is also created:
+
+* `import from neighboring countries electricity, high voltage` (CH)
+
+That market itself relies on imports from the rest of Europe, which is
+provided by the regional IAM market for European electricity.
 
 How to use it?
 --------------

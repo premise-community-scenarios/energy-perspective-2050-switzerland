@@ -13,8 +13,8 @@ neighboring countries), liquid and gaseous fuels (including hydrogen).
 Sourced from publication
 ------------------------
 
-Energy perspectives 2050+
-Swiss Federal Office for Energy
+Energy perspectives 2050+\
+Swiss Federal Office for Energy\
 https://www.bfe.admin.ch/bfe/en/home/policy/energy-perspectives-2050-plus.html/
 
 Data validation 

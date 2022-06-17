@@ -227,7 +227,8 @@ markets:
     includes:
       - hydro_run_of_river
       - hydro_reservoir
-      - nuclear
+      - nuclear_boiling_water
+      - nuclear_pressure_water
       - conventional_waste
       - conventional_other
       - pv

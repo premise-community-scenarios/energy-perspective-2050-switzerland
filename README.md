@@ -4,9 +4,18 @@
 Description
 -----------
 
-This is a repository containing a scenario that implements the projection of the Energy Perspective 2050+ report for electricity, hydrogen, gas and liquid fuels.
+This is a repository containing a scenario that implements the projection of the 
+Energy Perspective 2050+ report for:
 
-This is a data package that contains all the files necessary for premise to implement
+* electricity, 
+* hydrogen, 
+* gas 
+* and liquid fuels. 
+
+It is meant to be used in `premise` in addition to a global IAM scenario, to provide 
+refined projections at the country level.
+
+This is data package that contains all the files necessary for `premise` to implement
 this scenario and create market-specific composition for electricity (including imports from
 neighboring countries), liquid and gaseous fuels (including hydrogen).
 
@@ -36,14 +45,26 @@ ecoinvent 3.8 cut-off
 IAM scenario compatibility
 ---------------------------
 
-Compatible with the following IAM scenarios:
-* IMAGE SSP2-Base
-* IMAGE SSP2-RCP26
-* IMAGE SSP2-RCP19
-* REMIND SSP2-Base
-* REMIND SSP2-PkBudg1300
-* REMIND SSP2-PkBudg1100
-* REMIND SSP2-PkBudg900
+The following coupling is done between IAM and EPD2050+ scenarios:
+
+* IMAGE SSP2-Base (-> EP2050+ Business As Usual)
+* IMAGE SSP2-RCP26 (-> EP2050+ ZERO Basis)
+* REMIND SSP2-Base (-> EP2050+ Business As Usual)
+* REMIND SSP2-PkBudg1100 (-> EP2050+ ZERO Basis)
+* REMIND SSP2-PkBudg900 (-> EP2050+ ZERO Basis)
+
+What does this add?
+-------------------
+
+This external scenario creates the markets listed below according
+to the projections from the Energy Perspectives 2050+.
+
+* market for electricity, high voltage, EP2050 (CH)
+* market for electricity, medium voltage, EP2050 (CH)
+* market for electricity, medium voltage, EP2050 (CH)
+* import from neighboring countries, high voltage (CH)
+
+These markets are relinked to activities that consume electricity in Switzerland.
 
 How to use it?
 --------------
@@ -69,7 +90,7 @@ How to use it?
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
             custom_scenario=[
-                ep2050, # <-- list datapackage objects here
+                ep2050, # <-- list datapackages here
             ] 
         )
 ```

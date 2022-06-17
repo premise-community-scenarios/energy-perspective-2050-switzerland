@@ -198,7 +198,7 @@ production pathways:
 
 markets:
 
-  - name: import from neighboring countries
+  - name: import from neighboring countries, high voltage
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:

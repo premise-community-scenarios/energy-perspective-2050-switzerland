@@ -121,7 +121,7 @@ How to use it?
             source_db="ecoinvent 3.8 cutoff",
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
-            custom_scenario=[
+            external_scenarios=[
                 ep2050, # <-- list datapackages here
             ] 
         )

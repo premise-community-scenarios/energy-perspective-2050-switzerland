@@ -65,8 +65,8 @@ production pathways:
     production volume:
       variable: Production|Electricity|Renewable|Wind turbines|Onshore
     ecoinvent alias:
-      name: electricity production, wind, >3MW turbine, onshore, renewable energy products
-      reference product: electricity, high voltage, renewable energy products
+      name: electricity production, wind, 1-3MW turbine, onshore
+      reference product: electricity, high voltage
       exists in original database: True
 
   geothermal:

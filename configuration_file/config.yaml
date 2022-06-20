@@ -250,10 +250,12 @@ markets:
 
       - name: Dinitrogen monoxide
         categories: air
+        unit: kilogram
         amount: 5.0e-06
 
       - name: Ozone
         categories: air
+        unit: kilogram
         amount: 4.16e-06
 
     replaces:
@@ -283,6 +285,7 @@ markets:
 
       - name: Sulfur hexafluoride
         categories: air
+        unit: kilogram
         amount: 5.4e-08
 
     efficiency:
@@ -315,6 +318,7 @@ markets:
 
       - name: Sulfur hexafluoride
         categories: air
+        unit: kilogram
         amount: 2.99e-09
 
     efficiency:

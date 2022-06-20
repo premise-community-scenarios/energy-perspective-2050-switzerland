@@ -57,7 +57,7 @@ The following coupling is done between IAM and EP2050+ scenarios:
 What does this do?
 ------------------
 
-![map electricity markets](map.png)
+![map electricity markets](tests/map.png)
 
 This external scenario creates the markets for Switzerland listed below according
 to the projections from the Energy Perspectives 2050+ (yellow boundaries in map above).

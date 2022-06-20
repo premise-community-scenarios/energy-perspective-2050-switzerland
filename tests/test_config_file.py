@@ -72,6 +72,15 @@ def test_config_file():
                             i in config_file["production pathways"] for i in s
                         ),
                     ),
+                        Optional("add"): [
+                            {
+                                Optional("name"): str,
+                                Optional("reference product"): str,
+                                Optional("categories"): str,
+                                Optional("unit"): str,
+                                Optional("amount"): float,
+                            }
+                        ],
                     Optional("except regions"): And(
                         list,
                         Use(list),

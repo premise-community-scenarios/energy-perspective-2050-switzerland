@@ -46,17 +46,21 @@ IAM scenario compatibility
 
 The following coupling is done between IAM and EP2050+ scenarios:
 
-* IMAGE SSP2-Base (-> EP2050+ Business As Usual)
-* IMAGE SSP2-RCP26 (-> EP2050+ ZERO Basis)
-* REMIND SSP2-Base (-> EP2050+ Business As Usual)
-* REMIND SSP2-PkBudg1100 (-> EP2050+ ZERO Basis)
-* REMIND SSP2-PkBudg900 (-> EP2050+ ZERO Basis)
+| IAM scenario           | EP2050+ scenario  |
+| ---------------------- | ----------------- |
+| IMAGE SSP2-Base        | Business As Usual |
+| IMAGE SSP2-RCP26       | ZERO Basis        |
+| REMIND SSP2-Base       | Business As Usual |
+| REMIND SSP2-PkBudg1100 | ZERO Basis        |
+| REMIND SSP2-PkBudg900  | ZERO Basis        |
 
-What does this add?
--------------------
+What does this do?
+------------------
 
-This external scenario creates the markets listed below according
-to the projections from the Energy Perspectives 2050+.
+![map electricity markets](map.png)
+
+This external scenario creates the markets for Switzerland listed below according
+to the projections from the Energy Perspectives 2050+ (yellow boundaries in map above).
 
 * `market for electricity, high voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
@@ -65,12 +69,13 @@ to the projections from the Energy Perspectives 2050+.
 These markets are relinked to activities that consume electricity in Switzerland.
 
 Additional, the Swiss market relies to a varying extent on imports from
-neighboring countries (FR + DE + IT + AT), for which a market is also created:
+neighboring countries (FR + DE + IT + AT), for which a market is also created 
+(orange boundaries in map above):
 
 * `import from neighboring countries electricity, high voltage` (CH)
 
 That market itself relies on imports from the rest of Europe, which is
-provided by the regional IAM market for European electricity.
+provided by the regional IAM market for European electricity (white boundaries in map above).
 
 How to use it?
 --------------

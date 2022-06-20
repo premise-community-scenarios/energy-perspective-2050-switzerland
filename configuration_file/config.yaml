@@ -217,6 +217,26 @@ markets:
       - neighbors_wind_off
       - neighbors_biomass
       - neighbors_import
+
+    add:
+
+      - name: transmission network construction, long-distance
+        reference product: transmission network, long-distance
+        amount: 3.17e-10
+
+      - name: transmission network construction, electricity, high voltage
+        reference product: transmission network, electricity, high voltage
+        amount: 6.58e-09
+
+      - name: Dinitrogen monoxide
+        categories: air
+        unit: kilogram
+        amount: 5.0e-06
+
+      - name: Ozone
+        categories: air
+        unit: kilogram
+        amount: 4.16e-06
     
     except regions:
       - World

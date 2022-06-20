@@ -81,22 +81,22 @@ provided by the regional IAM market for European electricity (white boundaries i
 How are technologies mapped?
 ---------------------------
 
-| Technologies in EP2050+          | LCI datasets used                                               | Remarks                                                                                                                   |
-| -------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
-| Hydro, run-of-river              | electricity production, hydro, run-of-river                     |
-| Hydro, alpine reservoir          | electricity production, hydro, reservoir, alpine region         |
-| Nuclear|Boiling water reactor    | electricity production, nuclear, boiling water reactor          | The split between boiling water and pressure water is not provided. We use the current split, based on production volume. |
-| Nuclear|Pressure water reactor   | electricity production, nuclear, pressure water reactor         |
-| Conventional|Waste-to-Energy     | treatment of municipal solid waste, incineration                |
-| Conventional|Other               | electricity production, natural gas, combined cycle power plant | The report does not specify what "Other" is. Assumed to be natural gas.                                                   |
-| Conventional|Coal                | electricity production, hard coal                               |
-| Conventional|Natural gas         | electricity production, natural gas, combined cycle power plant |
-| Renewable|Photovoltaic           | electricity production, photovoltaic                            | Datasets from 10.13140/RG.2.2.17977.19041.                                                                                |
-| Renewable|Wind turbines|Onshore  | electricity production, wind, 1-3MW turbine, onshore            |
-| Renewable|Wind turbines|Offshore | electricity production, wind, 1-3MW turbine, offshore           |
-| Renewable|Geothermal             | electricity production, deep geothermal                         | Dataset provided by premise, based on the geothermal heat dataset of ecoinvent.                                           |
-| Renewable|Biomass                | heat and power co-generation, wood chips, 6667 kW               |
-| Renewable|Biogas                 | heat and power co-generation, biogas, gas engine                |
+| Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                                   |
+| ---------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Hydro, run-of-river                | electricity production, hydro, run-of-river                     |
+| Hydro, alpine reservoir            | electricity production, hydro, reservoir, alpine region         |
+| Nuclear, Boiling water reactor     | electricity production, nuclear, boiling water reactor          | The split between boiling water and pressure water is not provided. We use the current split, based on production volume. |
+| Nuclear, Pressure water reactor    | electricity production, nuclear, pressure water reactor         |
+| Conventional, Waste-to-Energy      | treatment of municipal solid waste, incineration                |
+| Conventional, Other                | electricity production, natural gas, combined cycle power plant | The report does not specify what "Other" is. Assumed to be natural gas.                                                   |
+| Conventional, Coal                 | electricity production, hard coal                               |
+| Conventional, Natural gas          | electricity production, natural gas, combined cycle power plant |
+| Renewable, Photovoltaic            | electricity production, photovoltaic                            | Datasets from 10.13140/RG.2.2.17977.19041.                                                                                |
+| Renewable, Wind turbines, Onshore  | electricity production, wind, 1-3MW turbine, onshore            |
+| Renewable, Wind turbines, Offshore | electricity production, wind, 1-3MW turbine, offshore           |
+| Renewable, Geothermal              | electricity production, deep geothermal                         | Dataset provided by premise, based on the geothermal heat dataset of ecoinvent.                                           |
+| Renewable, Biomass                 | heat and power co-generation, wood chips, 6667 kW               |
+| Renewable, Biogas                  | heat and power co-generation, biogas, gas engine                |
 
 How to use it?
 --------------

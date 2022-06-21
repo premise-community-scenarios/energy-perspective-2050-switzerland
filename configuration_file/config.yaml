@@ -414,6 +414,10 @@ markets:
         location: CH
 
       - name: methanol synthesis, hydrogen from electrolysis, CO2 from DAC, EP2050
+        reference product: methanol, unpurified
+        location: CH
+
+      - name: methanol distillation, hydrogen from electrolysis, CO2 from DAC, EP2050
         reference product: methanol, purified
         location: CH
 

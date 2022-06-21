@@ -21,8 +21,8 @@ image,SSP2-Base,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,
 image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.570,71.692,61.811,52.630,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
 image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
 image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
-image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
-image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,1,2,5,7,11,16,16,16,16,16,16
+image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
 image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 image,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
@@ -132,8 +132,8 @@ remind,SSP2-Base,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0
 remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.570,71.692,61.811,52.630,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
 remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
 remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
-remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
-remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,1,2,5,7,11,16,16,16,16,16,16
+remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
 remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 remind,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1

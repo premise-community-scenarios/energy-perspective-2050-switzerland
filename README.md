@@ -76,7 +76,7 @@ neighboring countries (FR + DE + IT + AT), for which a market is also created
 * `import from neighboring countries electricity, high voltage` (CH)
 
 That market itself relies on imports from the rest of Europe, which is
-provided by the regional IAM market for European electricity (white boundaries in map above).
+provided by the regional IAM market for European electricity (blue boundaries in map above).
 
 How are technologies mapped?
 ---------------------------

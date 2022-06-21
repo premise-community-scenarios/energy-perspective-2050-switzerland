@@ -199,9 +199,156 @@ production pathways:
       name: market group for electricity, high voltage
       reference product: electricity, high voltage
       exists in original database: True
-  
+
+  diesel:
+    production volume:
+      variable: Production|Liquid fuel|Diesel|Diesel
+    ecoinvent alias:
+      name: market for diesel, low-sulfur
+      reference product: diesel, low-sulfur
+      exists in original database: True
+
+  biodiesel:
+    production volume:
+      variable: Production|Liquid fuel|Diesel|Biodiesel
+    ecoinvent alias:
+      name: Biodiesel, from rapeseed oil, at fuelling station
+      reference product: biodiesel, vehicle grade
+      exists in original database: True
+
+  syndiesel:
+    production volume:
+      variable: Production|Liquid fuel|Diesel|Synthetic diesel
+    ecoinvent alias:
+      name: diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050
+      reference product: diesel, synthetic, vehicle grade
+      exists in original database: True
+
+  petrol:
+    production volume:
+      variable: Production|Liquid fuel|Petrol|Petrol
+    ecoinvent alias:
+      name: market for petrol, low-sulfur
+      reference product: petrol, low-sulfur
+      exists in original database: True
+
+  bioethanol:
+    production volume:
+      variable: Production|Liquid fuel|Petrol|Bioethanol
+    ecoinvent alias:
+      name: ethanol production from sugar beet
+      reference product: ethanol, without water, in 95% solution state, from fermentation
+      exists in original database: True
+
+  synpetrol:
+    production volume:
+      variable: Production|Liquid fuel|Petrol|Synthetic petrol
+    ecoinvent alias:
+      name: gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050
+      reference product: gasoline, synthetic, vehicle grade
+      exists in original database: True
+
+  electrolysis_hydrogen:
+    production volume:
+      variable: Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis
+    efficiency:
+      - variable: Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis
+        includes:
+          technosphere:
+            - electricity
+    ecoinvent alias:
+        name: hydrogen production, electrolysis, 25 bar, domestic, EP2050
+        reference product: hydrogen, gaseous
+        exists in original database: True
+
+  electrolysis_hydrogen_import:
+    production volume:
+      variable: Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis
+    efficiency:
+      - variable: Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis
+        includes:
+          technosphere:
+            - electricity
+    ecoinvent alias:
+      name: hydrogen production, electrolysis, 25 bar, imported, EP2050
+      reference product: hydrogen, gaseous
+      exists in original database: True
+
+    replaces:
+      - name: hydrogen production, gaseous, 25 bar, from electrolysis
+        reference product: Hydrogen, gaseous, 25 bar
+
+    replaces in:
+      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+        reference product: Carbon monoxide, from RWGS
+        location: CH
+
+      - name: Syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+        reference product: Syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis
+        location: CH
+
+      - name: gasoline production, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, EP2050
+        reference product: gasoline, synthetic
+        location: CH
+
+      - name: methanol synthesis, hydrogen from electrolysis, CO2 from DAC, EP2050
+        reference product: methanol, unpurified
+        location: CH
+
+  DAC:
+    production volume:
+      variable: Production|Liquid fuel|DAC
+    ecoinvent alias:
+      name: carbon dioxide, captured from atmosphere, EP2050
+      reference product: carbon dioxide, captured from the atmosphere
+      exists in original database: False
+
+    replaces:
+      - name: carbon dioxide, captured from atmosphere
+        reference product: carbon dioxide, captured from atmosphere
+
+    replaces in:
+      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+        reference product: Carbon monoxide, from RWGS
+        location: CH
+
+      - name: methanol synthesis, hydrogen from electrolysis, CO2 from DAC, EP2050
+        reference product: methanol, unpurified
+        location: CH
 
 markets:
+
+  - name: market for hydrogen, gaseous, EP2050
+    reference product: hydrogen, gaseous
+    unit: kilogram
+    includes:
+      - electrolysis_hydrogen
+      - electrolysis_hydrogen_import
+
+    except regions:
+      - World
+
+  - name: market for diesel, EP2050
+    reference product: diesel
+    unit: kilogram
+    includes:
+      - diesel
+      - biodiesel
+      - syndiesel
+
+    except regions:
+      - World
+
+  - name: market for petrol, EP2050
+    reference product: petrol
+    unit: kilogram
+    includes:
+      - petrol
+      - bioethanol
+      - synpetrol
+
+    except regions:
+      - World
 
   - name: import from neighboring countries electricity, high voltage
     reference product: electricity, high voltage
@@ -240,6 +387,35 @@ markets:
     
     except regions:
       - World
+
+    replaces:
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+
+    replaces in:
+      - name: hydrogen production, electrolysis, 25 bar, imported, EP2050
+        reference product: hydrogen, gaseous
+        location: CH
+
+      - name: carbon dioxide, captured from atmosphere, EP2050
+        reference product: carbon dioxide, captured from the atmosphere
+        location: CH
+
+      - name: diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050
+        reference product: diesel, synthetic, vehicle grade
+        location: CH
+
+      - name: gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050
+        reference product: gasoline, synthetic, vehicle grade
+        location: CH
+
+      - name: gasoline production, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, EP2050
+        reference product: gasoline, synthetic
+        location: CH
+
+      - name: methanol synthesis, hydrogen from electrolysis, CO2 from DAC, EP2050
+        reference product: methanol, purified
+        location: CH
 
   - name: market for electricity, high voltage, EP2050
     reference product: electricity, high voltage

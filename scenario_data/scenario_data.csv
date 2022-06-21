@@ -15,6 +15,17 @@ image,SSP2-Base,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1,
 image,SSP2-Base,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
 image,SSP2-Base,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 image,SSP2-Base,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+image,SSP2-Base,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,104,110,103,91,79,68,59,59,59,59,59,59
+image,SSP2-Base,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,7,2,2,2,2,1,1,1,1,1,1,1
+image,SSP2-Base,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.570,71.692,61.811,52.630,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
+image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
+image,SSP2-Base,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-RCP26,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP26,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 image,SSP2-RCP26,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -31,6 +42,17 @@ image,SSP2-RCP26,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1
 image,SSP2-RCP26,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
 image,SSP2-RCP26,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 image,SSP2-RCP26,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+image,SSP2-RCP26,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,105.7,106.82,95.05,75.29,52.83,25.22,0,0,0,0,0,0
+image,SSP2-RCP26,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,5.24,2.67,1.8,2.54,3.6,4.93,5.34,5.34,5.34,5.34,5.34,5.34
+image,SSP2-RCP26,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,8.05,19.79,19.79,19.79,19.79,19.79,19.79
+image,SSP2-RCP26,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.525,67.881,54.198,41.869,29.514,16.030,0.000,0.000,0.000,0.000,0.000,0.000
+image,SSP2-RCP26,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,2.829,3.768,3.151,2.222,1.448,0.878,0.878,0.878,0.878,0.878,0.878
+image,SSP2-RCP26,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,3.206,11.662,11.662,11.662,11.662,11.662,11.662
+image,SSP2-RCP26,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+image,SSP2-RCP26,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+image,SSP2-RCP26,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP26,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP26,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-RCP19,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 image,SSP2-RCP19,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 image,SSP2-RCP19,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -47,6 +69,17 @@ image,SSP2-RCP19,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1
 image,SSP2-RCP19,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
 image,SSP2-RCP19,CH,Transmission losses|Electricity|Medium to high,PJ/year,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926,0.926
 image,SSP2-RCP19,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+image,SSP2-RCP19,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,105.7,106.82,95.05,75.29,52.83,25.22,0,0,0,0,0,0
+image,SSP2-RCP19,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,5.24,2.67,1.8,2.54,3.6,4.93,5.34,5.34,5.34,5.34,5.34,5.34
+image,SSP2-RCP19,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,8.05,19.79,19.79,19.79,19.79,19.79,19.79
+image,SSP2-RCP19,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.525,67.881,54.198,41.869,29.514,16.030,0.000,0.000,0.000,0.000,0.000,0.000
+image,SSP2-RCP19,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,2.829,3.768,3.151,2.222,1.448,0.878,0.878,0.878,0.878,0.878,0.878
+image,SSP2-RCP19,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,3.206,11.662,11.662,11.662,11.662,11.662,11.662
+image,SSP2-RCP19,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+image,SSP2-RCP19,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+image,SSP2-RCP19,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP19,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP19,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
 image,SSP2-Base,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0
@@ -93,6 +126,17 @@ remind,SSP2-Base,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,1,1,1
 remind,SSP2-Base,CH,Production|Electricity|Import,PJ/year,-21.6,25.2,72,72,72,73.8,75.6,75.6,75.6,75.6,75.6,75.6
 remind,SSP2-Base,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 remind,SSP2-Base,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+remind,SSP2-Base,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,104,110,103,91,79,68,59,59,59,59,59,59
+remind,SSP2-Base,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,7,2,2,2,2,1,1,1,1,1,1,1
+remind,SSP2-Base,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
+remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.570,71.692,61.811,52.630,44.065,36.839,30.605,30.605,30.605,30.605,30.605,30.605
+remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,0.724,0.624,0.532,0.445,0.372,0.309,0.309,0.309,0.309,0.309,0.309
+remind,SSP2-Base,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
+remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -109,6 +153,17 @@ remind,SSP2-PkBudg1100,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1
 remind,SSP2-PkBudg1100,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
 remind,SSP2-PkBudg1100,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 remind,SSP2-PkBudg1100,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,105.7,106.82,95.05,75.29,52.83,25.22,0,0,0,0,0,0
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,5.24,2.67,1.8,2.54,3.6,4.93,5.34,5.34,5.34,5.34,5.34,5.34
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,8.05,19.79,19.79,19.79,19.79,19.79,19.79
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.525,67.881,54.198,41.869,29.514,16.030,0.000,0.000,0.000,0.000,0.000,0.000
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,2.829,3.768,3.151,2.222,1.448,0.878,0.878,0.878,0.878,0.878,0.878
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,3.206,11.662,11.662,11.662,11.662,11.662,11.662
+remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+remind,SSP2-PkBudg1100,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg1100,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-PkBudg900,CH,Production|Electricity|Run-of-river hydro,PJ/year,64.469,65.24,65.99,66.475,66.52,66.399,66.774,66.774,66.774,66.774,66.774,66.774
 remind,SSP2-PkBudg900,CH,Production|Electricity|Reservoir,PJ/year,76.154,80.284,84.002,84.46,91.094,92.855,94.097,94.097,94.097,94.097,94.097,94.097
 remind,SSP2-PkBudg900,CH,Production|Electricity|Nuclear|Boiling water reactor,PJ/year,37.302,28.043,14.964,0,0,0,0,0,0,0,0,0
@@ -125,6 +180,17 @@ remind,SSP2-PkBudg900,CH,Production|Electricity|Low to medium,PJ/year,1,1,1,1,1,
 remind,SSP2-PkBudg900,CH,Production|Electricity|Import,PJ/year,-21.6,12.6,46.8,35.1,23.4,11.7,0,0,0,0,0,0
 remind,SSP2-PkBudg900,CH,Transmission losses|Electricity|Medium to high,PJ/year,1,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935,0.935
 remind,SSP2-PkBudg900,CH,Distribution losses|Electricity|Low to medium,PJ/year,1,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973,0.973
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Diesel|Diesel,PJ/year,105.7,106.82,95.05,75.29,52.83,25.22,0,0,0,0,0,0
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Diesel|Biodiesel,PJ/year,5.24,2.67,1.8,2.54,3.6,4.93,5.34,5.34,5.34,5.34,5.34,5.34
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Diesel|Synthetic diesel,PJ/year,0,0,0,0,0,8.05,19.79,19.79,19.79,19.79,19.79,19.79
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Petrol|Petrol,PJ/year,81.525,67.881,54.198,41.869,29.514,16.030,0.000,0.000,0.000,0.000,0.000,0.000
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Petrol|Bioethanol,PJ/year,1.242,2.829,3.768,3.151,2.222,1.448,0.878,0.878,0.878,0.878,0.878,0.878
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|Petrol|Synthetic petrol,PJ/year,0.000,0.000,0.000,0.000,0.000,3.206,11.662,11.662,11.662,11.662,11.662,11.662
+remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/year,0,0,0,1,2,5,9,9,9,9,9,9
+remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
+remind,SSP2-PkBudg900,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg900,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg900,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Reservoir,PJ/year,666.22,669.694,674.011,670.346,690.76,711.591,730.723,730.723,730.723,730.723,730.723,730.723
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Nuclear,PJ/year,1687.313,1428.995,1158.156,666.961,294.026,165.244,32.634,32.634,32.634,32.634,32.634,32.634
 remind,SSP2-Base,CH,Production|Electricity|Neighbor countries|Coal,PJ/year,647.341,587.696,371.927,210.679,0,0,0,0,0,0,0,0

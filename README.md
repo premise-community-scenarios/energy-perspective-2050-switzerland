@@ -58,7 +58,7 @@ The following coupling is done between IAM and EP2050+ scenarios:
 What does this do?
 ------------------
 
-![map electricity markets](tests/map.png)
+![map electricity markets](assets/map.png)
 
 This external scenario creates markets for Switzerland listed below, according
 to the projections from the Energy Perspectives 2050+ (yellow boundaries in map above).
@@ -130,7 +130,10 @@ Liquid fuels
 Hydrogen
 ********
 
+Flow diagram
+------------
 
+![map electricity markets](assets/flow_diagram.png)
 
 How to use it?
 --------------

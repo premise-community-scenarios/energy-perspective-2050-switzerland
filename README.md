@@ -63,6 +63,9 @@ What does this do?
 This external scenario creates markets for Switzerland listed below, according
 to the projections from the Energy Perspectives 2050+ (yellow boundaries in map above).
 
+Electricity
+***********
+
 * `market for electricity, high voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
@@ -78,8 +81,31 @@ neighboring countries (FR + DE + IT + AT), for which a market is also created
 That market itself relies on imports from the rest of Europe, which is
 provided by the regional IAM market for European electricity (blue boundaries in map above).
 
+Petrol and diesel
+*****************
+
+* `market for petrol, EP2050` (CH)
+* `market for diesel, EP2050` (CH)
+
+This includes the production of biofuel and synthetic fuel.
+The latter is produced in the neighboring countries, using
+the corresponding markets for hydrogen and electricity.
+
+
+Hydrogen
+********
+
+* `market for hydrogen, gaseous, EP2050` (CH)
+
+This includes the domestic and foreign production of hydrogen, via electrolysis.
+The latter is produced in the neighboring countries, using
+the corresponding markets for electricity.
+
 How are technologies mapped?
 ---------------------------
+
+Electricity
+***********
 
 | Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                                   |
 | ---------------------------------- | --------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------- |
@@ -97,6 +123,14 @@ How are technologies mapped?
 | Renewable, Geothermal              | electricity production, deep geothermal                         | Dataset provided by premise, based on the geothermal heat dataset of ecoinvent.                                           |
 | Renewable, Biomass                 | heat and power co-generation, wood chips, 6667 kW               |
 | Renewable, Biogas                  | heat and power co-generation, biogas, gas engine                |
+
+Petrol and diesel
+*****************
+
+Hydrogen
+********
+
+
 
 How to use it?
 --------------

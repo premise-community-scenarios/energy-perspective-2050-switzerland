@@ -81,8 +81,8 @@ neighboring countries (FR + DE + IT + AT), for which a market is also created
 That market itself relies on imports from the rest of Europe, which is
 provided by the regional IAM market for European electricity (blue boundaries in map above).
 
-Petrol and diesel
-*****************
+Liquid fuels
+************
 
 * `market for petrol, EP2050` (CH)
 * `market for diesel, EP2050` (CH)
@@ -124,8 +124,8 @@ Electricity
 | Renewable, Biomass                 | heat and power co-generation, wood chips, 6667 kW               |
 | Renewable, Biogas                  | heat and power co-generation, biogas, gas engine                |
 
-Petrol and diesel
-*****************
+Liquid fuels
+************
 
 Hydrogen
 ********

@@ -6,7 +6,7 @@ FILEPATH_DATAPACKAGE_SCHEMA = "./datapackage.json"
 dp = Package(FILEPATH_DATAPACKAGE_SCHEMA)
 
 if dp.get_resource("inventories"):
-    i = bw2io.CSVImporter(dp.get_resource("inventories").descriptor["path"])
+    i = bw2io.CSVImporter(dp.get_resource("inventories").source)
 
     resource = dp.get_resource("config")
     config_file = yaml.safe_load(resource.raw_read())

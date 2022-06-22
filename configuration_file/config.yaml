@@ -295,6 +295,10 @@ production pathways:
         reference product: methanol, unpurified
         location: CH
 
+      - name: methane, from electrochemical methanation, with carbon from atmospheric CO2 capture, EP2050
+        reference product: methane, from electrochemical methanation
+        location: CH
+
   DAC:
     production volume:
       variable: Production|Liquid fuel|DAC
@@ -316,7 +320,108 @@ production pathways:
         reference product: methanol, unpurified
         location: CH
 
+      - name: methane, from electrochemical methanation, with carbon from atmospheric CO2 capture, EP2050
+        reference product: methane, from electrochemical methanation
+        location: CH
+
+  CNG:
+    production volume:
+      variable: Production|Gaseous fuel|CNG
+    ecoinvent alias:
+      name: natural gas, high pressure, at consumer
+      reference product: natural gas, high pressure, at consumer
+      exists in original database: True
+
+  LNG:
+    production volume:
+      variable: Production|Gaseous fuel|LNG
+    ecoinvent alias:
+      name: market for natural gas, liquefied
+      reference product: natural gas, liquefied
+      exists in original database: True
+
+  biomethane:
+    production volume:
+      variable: Production|Gaseous fuel|Biomethane
+    ecoinvent alias:
+      name: market for biomethane, high pressure
+      reference product: biomethane, high pressure
+      exists in original database: True
+
+  syngas:
+    production volume:
+      variable: Production|Gaseous fuel|Synthetic gas
+    ecoinvent alias:
+      name: Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
+      reference product: methane, high pressure
+      exists in original database: True
+
+  low_to_high_pressure_gas:
+    production volume:
+      variable: Production|Gaseous fuel|Low to high
+    ecoinvent alias:
+      name: market for compressed gas, high pressure, EP2050
+      reference product: compressed gas
+      exists in original database: False
+      new dataset: True
+
 markets:
+
+  - name: market for compressed gas, high pressure, EP2050
+    reference product: compressed gas
+    unit: cubic meter
+    includes:
+      - CNG
+      - LNG
+      - biomethane
+      - syngas
+    except regions:
+      - World
+
+  - name: market for compressed gas, low pressure, EP2050
+    reference product: compressed gas
+    unit: cubic meter
+
+    includes:
+      - low_to_high_pressure_gas
+
+    efficiency:
+      - variable: Distribution losses|Gaseous fuel|Low to high
+
+    add:
+      - name: natural gas, burned in gas turbine
+        reference product: natural gas, burned in gas turbine
+        amount: 0.044118
+      - name: market for pipeline, natural gas, low pressure distribution network
+        reference product: pipeline, natural gas, low pressure distribution network
+        amount: 1.43e-7
+      - name: Butane
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 1.56e-05
+      - name: Carbon dioxide, fossil
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 5.63e-05
+      - name: Ethane
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 1.35e-04
+      - name: Methane, fossil
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 0.001628712
+      - name: NMVOC, non-methane volatile organic compounds, unspecified origin
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 1.123812e-06
+      - name: Propane
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 3.035e-05
+
+    except regions:
+      - World
 
   - name: market for hydrogen, gaseous, EP2050
     reference product: hydrogen, gaseous
@@ -391,6 +496,10 @@ markets:
     replaces:
       - name: market for electricity, low voltage
         reference product: electricity, low voltage
+      - name: market group for electricity, medium voltage
+        reference product: electricity, medium voltage
+      - name: market group for electricity, low voltage
+        reference product: electricity, low voltage
 
     replaces in:
       - name: hydrogen production, electrolysis, 25 bar, imported, EP2050
@@ -399,6 +508,10 @@ markets:
 
       - name: carbon dioxide, captured from atmosphere, EP2050
         reference product: carbon dioxide, captured from the atmosphere
+        location: CH
+
+      - name: diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050
+        reference product: diesel, synthetic, vehicle grade
         location: CH
 
       - name: diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050
@@ -420,6 +533,11 @@ markets:
       - name: methanol distillation, hydrogen from electrolysis, CO2 from DAC, EP2050
         reference product: methanol, purified
         location: CH
+
+      - name: Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
+        reference product: methane, high pressure
+        location: CH
+
 
   - name: market for electricity, high voltage, EP2050
     reference product: electricity, high voltage

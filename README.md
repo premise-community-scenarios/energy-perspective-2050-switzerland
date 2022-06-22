@@ -92,17 +92,26 @@ The latter is produced in the neighboring countries, using
 the corresponding markets for hydrogen and electricity.
 
 
-Hydrogen
-********
+Gaseous fuels
+*************
 
 * `market for hydrogen, gaseous, EP2050` (CH)
+* `market for compressed gas, high pressure, EP2050` (CH)
+* `market for compressed gas, low pressure, EP2050` (CH)
 
-This includes the domestic and foreign production of hydrogen, via electrolysis.
+For hydrogen, this includes the domestic and foreign production, via electrolysis.
 The latter is produced in the neighboring countries, using
+the corresponding markets for electricity.
+
+For compressed gas, this includes the provision of natural gas, biomethane
+and synthetic gas (from neighboring countries), using
 the corresponding markets for electricity.
 
 How are technologies mapped?
 ---------------------------
+The tables below show how the mapping between reported technologies
+and LCI datasets is done. Unless specified otherwise, ecoinvent
+LCI datasets are used.
 
 Electricity
 ***********
@@ -127,8 +136,32 @@ Electricity
 Liquid fuels
 ************
 
-Hydrogen
-********
+
+| Technologies in EP2050+            | LCI datasets used                                               | Remarks                                                                                                             |
+|------------------------------------|-----------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------|
+| Diesel                             | market for diesel, low-sulfur                                   | 
+| Biodiesel                          | Biodiesel, from rapeseed oil, at fuelling station         | Provided by premise. |
+| Synthetic diesel                   | diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050          | Provided by premise. |
+| Petrol                             | market for petrol, low-sulfur                                   |
+| Bioethanol                         | ethanol production from sugar beet                |
+| Synthetic petrol                   | gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050 | Provided by premise. |                                                                                                |
+
+
+
+Gaseous fuels
+*************
+
+
+| Technologies in EP2050+ | LCI datasets used                                                                                                                      | Remarks          |
+|-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Hydrogen, domestic      | hydrogen production, electrolysis, 25 bar, domestic, EP2050                                                                            | Provided by premise. |
+| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            |
+| Compressed natural gas  | natural gas, high pressure, at consumer | From 10.13140/RG.2.2.29142.78409.           |
+| Liquefied natural gas   | market for natural gas, liquefied                                                                                                          |
+| Biomethane              | market for biomethane, high pressure                                                                                                          |
+| Synthetic gas           | Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050                                                                                                     |
+
+
 
 Flow diagram
 ------------

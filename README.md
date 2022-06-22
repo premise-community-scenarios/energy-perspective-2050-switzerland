@@ -155,11 +155,11 @@ Gaseous fuels
 | Technologies in EP2050+ | LCI datasets used                                                                                                                      | Remarks          |
 |-------------------------|----------------------------------------------------------------------------------------------------------------------------------------|------------------|
 | Hydrogen, domestic      | hydrogen production, electrolysis, 25 bar, domestic, EP2050                                                                            | Provided by premise. |
-| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            |
+| Hydrogen, imported      | hydrogen production, electrolysis, 25 bar, imported, EP2050                                                                            | Provided by premise. |
 | Compressed natural gas  | natural gas, high pressure, at consumer | From 10.13140/RG.2.2.29142.78409.           |
 | Liquefied natural gas   | market for natural gas, liquefied                                                                                                          |
 | Biomethane              | market for biomethane, high pressure                                                                                                          |
-| Synthetic gas           | Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050                                                                                                     |
+| Synthetic gas           | Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050 | Provided by premise. |
 
 
 

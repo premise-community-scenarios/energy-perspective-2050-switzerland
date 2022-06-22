@@ -3,7 +3,7 @@
     "name": "energy-perspective-2050-switzerland",
     "title": "Energy Perspective 2050 + scenario implementation",
     "description": "Implementation of BAU and ZERO scenario from Energy Perspective 2050 +",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"

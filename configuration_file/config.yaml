@@ -97,7 +97,7 @@ production pathways:
     production volume:
       variable: Production|Electricity|Import
     ecoinvent alias:
-      name: import from neighboring countries electricity, high voltage
+      name: market for electricity, from neighboring countries, high voltage, EP2050
       reference product: electricity, high voltage
       exists in original database: False
       new dataset: True
@@ -350,7 +350,7 @@ markets:
     except regions:
       - World
 
-  - name: import from neighboring countries electricity, high voltage
+  - name: market for electricity, from neighboring countries, high voltage, EP2050
     reference product: electricity, high voltage
     unit: kilowatt hour
     includes:

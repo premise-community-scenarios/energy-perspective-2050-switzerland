@@ -299,6 +299,15 @@ production pathways:
         reference product: methane, from electrochemical methanation
         location: CH
 
+  hydrogen_liquid:
+    production volume:
+      variable: Production|Gaseous fuel|Hydrogen|Gaseous to liquid
+    ecoinvent alias:
+      name: market for hydrogen, gaseous, EP2050
+      reference product: hydrogen, gaseous
+      exists in original database: False
+      new dataset: True
+
   DAC:
     production volume:
       variable: Production|Liquid fuel|DAC
@@ -430,8 +439,91 @@ markets:
       - electrolysis_hydrogen
       - electrolysis_hydrogen_import
 
+    add:
+
+      - name: solution mining for geological hydrogen storage
+        reference product: solution mining
+        amount: 1.0
+
+      - name: geological hydrogen storage
+        reference product: hydrogen storage
+        amount: 1.0
+
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.2
+
+      - name: Hydrogen
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 0.01
+
+    efficiency:
+      - variable: Cushion gas|Gaseous fuel|Hydrogen|Geological storage
+        includes:
+          technosphere:
+            - name: hydrogen production
+
     except regions:
       - World
+
+  - name: market for hydrogen, liquid, EP2050
+    reference product: hydrogen, liquid
+    unit: kilogram
+    includes:
+      - hydrogen_liquid
+
+    add:
+      - name: high pressure hydrogen storage tank
+        reference product: high pressure hydrogen storage tank
+        amount: 1.37e-4
+
+      - name: market for electricity, low voltage
+        reference product: electricity, low voltage
+        amount: 12.0
+
+      - name: market for transport, freight, lorry, unspecified
+        reference product: transport, freight, lorry, unspecified
+        amount: 0.2
+
+
+      - name: Hydrogen
+        categories: air::non-urban air or from high stacks
+        unit: kilogram
+        amount: 0.01
+
+    efficiency:
+      - variable: Efficiency|Gaseous fuel|Hydrogen|Liquefaction
+        includes:
+          technosphere:
+            - name: electricity
+
+      - variable: Distribution losses|Gaseous fuel|Hydrogen|Liquefaction
+        includes:
+          technosphere:
+            - name: hydrogen
+          biosphere:
+            - name: Hydrogen
+
+      - variable: Distribution losses|Gaseous fuel|Hydrogen|Evaporation
+        includes:
+          technosphere:
+            - name: hydrogen
+
+      - variable: Distribution losses|Gaseous fuel|Hydrogen|Leakage
+        includes:
+          biosphere:
+              - name: Hydrogen
+
+    except regions:
+      - World
+
+    replaces:
+      - name: market for hydrogen, liquid
+        reference product: hydrogen, liquid
+
+    replaces in:
+      - location: CH
 
   - name: market for diesel, EP2050
     reference product: diesel

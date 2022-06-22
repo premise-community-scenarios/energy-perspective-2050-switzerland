@@ -25,6 +25,12 @@ image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/yea
 image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
 image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+image,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+image,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+image,SSP2-Base,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+image,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 image,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-Base,CH,Production|Gaseous fuel|CNG,PJ/year,0.478,0.737,1.108,1.428,1.566,1.533,1.454,1.454,1.454,1.454,1.454,1.454
 image,SSP2-Base,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -58,6 +64,12 @@ image,SSP2-RCP26,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/ye
 image,SSP2-RCP26,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
 image,SSP2-RCP26,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 image,SSP2-RCP26,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP26,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-RCP26,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+image,SSP2-RCP26,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+image,SSP2-RCP26,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+image,SSP2-RCP26,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+image,SSP2-RCP26,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 image,SSP2-RCP26,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-RCP26,CH,Production|Gaseous fuel|CNG,PJ/year,0.498,0.174,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 image,SSP2-RCP26,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -91,6 +103,12 @@ image,SSP2-RCP19,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/ye
 image,SSP2-RCP19,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
 image,SSP2-RCP19,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 image,SSP2-RCP19,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+image,SSP2-RCP19,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+image,SSP2-RCP19,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+image,SSP2-RCP19,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+image,SSP2-RCP19,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+image,SSP2-RCP19,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+image,SSP2-RCP19,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 image,SSP2-RCP19,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 image,SSP2-RCP19,CH,Production|Gaseous fuel|CNG,PJ/year,0.498,0.174,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 image,SSP2-RCP19,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -154,6 +172,12 @@ remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,PJ/ye
 remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,0,0,0,0,0,0,0,0,0,0,0
 remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-Base,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+remind,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+remind,SSP2-Base,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+remind,SSP2-Base,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+remind,SSP2-Base,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 remind,SSP2-Base,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-Base,CH,Production|Gaseous fuel|CNG,PJ/year,0.478,0.737,1.108,1.428,1.566,1.533,1.454,1.454,1.454,1.454,1.454,1.454
 remind,SSP2-Base,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -187,6 +211,12 @@ remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis
 remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
 remind,SSP2-PkBudg1100,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 remind,SSP2-PkBudg1100,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg1100,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+remind,SSP2-PkBudg1100,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+remind,SSP2-PkBudg1100,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+remind,SSP2-PkBudg1100,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+remind,SSP2-PkBudg1100,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 remind,SSP2-PkBudg1100,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|CNG,PJ/year,0.498,0.174,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 remind,SSP2-PkBudg1100,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
@@ -220,6 +250,12 @@ remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|Hydrogen|Domestic|Electrolysis,
 remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,PJ/year,0,1,2,4,5,6,7,7,7,7,7,7
 remind,SSP2-PkBudg900,CH,Efficiency|Gaseous fuel|Hydrogen|Domestic|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
 remind,SSP2-PkBudg900,CH,Efficiency|Gaseous fuel|Hydrogen|Neighboring countries|Electrolysis,%,61,63,66,68,70,73,75,75,75,75,75,75
+remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|Hydrogen|Gaseous to liquid,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
+remind,SSP2-PkBudg900,CH,Distribution losses|Gaseous fuel|Hydrogen|Liquefaction,%,1,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987,0.987
+remind,SSP2-PkBudg900,CH,Distribution losses|Gaseous fuel|Hydrogen|Evaporation,%,1,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98,0.98
+remind,SSP2-PkBudg900,CH,Distribution losses|Gaseous fuel|Hydrogen|Leakage,%,1,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295,0.295
+remind,SSP2-PkBudg900,CH,Cushion gas|Gaseous fuel|Hydrogen|Geological storage,%,1,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985,0.985
+remind,SSP2-PkBudg900,CH,Efficiency|Gaseous fuel|Hydrogen|Liquefaction,%,1,1.110,1.220,1.440,1.630,1.820,2.000,2.000,2.000,2.000,2.000,2.000
 remind,SSP2-PkBudg900,CH,Production|Liquid fuel|DAC,PJ/year,1,1,1,1,1,1,1,1,1,1,1,1
 remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|CNG,PJ/year,0.498,0.174,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000
 remind,SSP2-PkBudg900,CH,Production|Gaseous fuel|LNG,PJ/year,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.000

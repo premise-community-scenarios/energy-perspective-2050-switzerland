@@ -318,10 +318,10 @@ production pathways:
 
     replaces:
       - name: carbon dioxide, captured from atmosphere
-        reference product: carbon dioxide, captured from atmosphere
+        reference product: carbon dioxide, captured from the atmosphere
 
     replaces in:
-      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP205
         reference product: Carbon monoxide, from RWGS
         location: CH
 
@@ -649,7 +649,6 @@ markets:
       - import
 
     add:
-
       - name: transmission network construction, long-distance
         reference product: transmission network, long-distance
         amount: 3.17e-10

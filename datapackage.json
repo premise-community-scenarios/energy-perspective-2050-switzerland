@@ -2,29 +2,49 @@
     "profile": "data-package",
     "name": "energy-perspective-2050-switzerland",
     "title": "Energy Perspective 2050 + scenario implementation",
-    "description": "Implementation of BAU and ZERO scenario from Energy Perspective 2050 +",
-    "version": "0.0.3",
+    "description": "Implementation of BAU and ZERO Basis scenarios from Energy Perspective 2050 +",
+    "version": "0.0.4",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"
     }],
     "dependencies": {
-        "premise": ">=1.1.8"
+        "premise": ">=1.2.5"
     },
     "ecoinvent": {
         "version": "3.8",
         "system model": "cut-off"
     },
-    "IAM scenario available": [
-        {
-            "model": "image",
-            "pathway": "SSP2-Base"
-        },
-        {
-            "model": "image",
-            "pathway": "SSP2-RCP26"
-        }
-    ],
+    "scenarios": {
+        "Business As Usual": [
+            {
+                "model": "image",
+                "pathway": "SSP2-Base"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-Base"
+            }
+        ],
+        "ZERO Basis": [
+            {
+                "model": "image",
+                "pathway": "SSP2-RCP26"
+            },
+            {
+                "model": "image",
+                "pathway": "SSP2-RCP19"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-PkBudg1150"
+            },
+            {
+                "model": "remind",
+                "pathway": "SSP2-PkBudg500"
+            }
+        ]
+    },
     "licenses": [{
     "id": "CC0-1.0",
     "title": "CC0 1.0",
@@ -47,6 +67,11 @@
                     },
                     {
                         "name": "pathway",
+                        "type": "string",
+                        "format": "default"
+                    },
+                    {
+                        "name": "scenario",
                         "type": "string",
                         "format": "default"
                     },

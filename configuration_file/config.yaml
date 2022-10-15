@@ -276,7 +276,7 @@ production pathways:
 
     replaces:
       - name: hydrogen production, gaseous, 25 bar, from electrolysis
-        reference product: Hydrogen, gaseous, 25 bar
+        product: Hydrogen, gaseous, 25 bar
 
     replaces in:
       - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
@@ -318,7 +318,7 @@ production pathways:
 
     replaces:
       - name: carbon dioxide, captured from atmosphere
-        reference product: carbon dioxide, captured from the atmosphere
+        product: carbon dioxide, captured from the atmosphere
 
     replaces in:
       - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP205
@@ -520,7 +520,7 @@ markets:
 
     replaces:
       - name: market for hydrogen, liquid
-        reference product: hydrogen, liquid
+        product: hydrogen, liquid
 
     replaces in:
       - location: CH
@@ -587,11 +587,11 @@ markets:
 
     replaces:
       - name: market for electricity, low voltage
-        reference product: electricity, low voltage
+        product: electricity, low voltage
       - name: market group for electricity, medium voltage
-        reference product: electricity, medium voltage
+        product: electricity, medium voltage
       - name: market group for electricity, low voltage
-        reference product: electricity, low voltage
+        product: electricity, low voltage
 
     replaces in:
       - name: hydrogen production, electrolysis, 25 bar, imported, EP2050
@@ -669,7 +669,8 @@ markets:
 
     replaces:
       - name: market for electricity, high voltage
-        reference product: electricity, high voltage
+        product: electricity, high voltage
+        location: CH
 
     replaces in:
       - location: CH
@@ -702,7 +703,8 @@ markets:
 
     replaces:
       - name: market for electricity, medium voltage
-        reference product: electricity, medium voltage
+        product: electricity, medium voltage
+        location: CH
 
     replaces in:
       - location: CH
@@ -735,22 +737,11 @@ markets:
 
     replaces:
       - name: market for electricity, low voltage
-        reference product: electricity, low voltage
+        product: electricity, low voltage
+        location: CH
 
     replaces in:
       - location: CH
 
     except regions:
       - World
-
-  
-
-
-  
-
-  
-  
-
-
-
-  

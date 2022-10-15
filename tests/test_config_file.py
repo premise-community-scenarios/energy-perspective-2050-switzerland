@@ -49,7 +49,13 @@ def test_config_file():
                             i in LIST_REMIND_REGIONS + LIST_IMAGE_REGIONS for i in s
                         ),
                     ),
-                    Optional("replaces"): [{"name": str, "product": str, Optional("operator"): str}],
+                    Optional("replaces"): [{
+                        "name": str,
+                        "product": str,
+                        Optional("location"): str,
+                        Optional("operator"): str
+                    }
+                    ],
                     Optional("replaces in"): [
                         {
                             Optional("name"): str,
@@ -89,7 +95,14 @@ def test_config_file():
                             i in LIST_REMIND_REGIONS + LIST_IMAGE_REGIONS for i in s
                         ),
                     ),
-                    Optional("replaces"): [{"name": str, "product": str, Optional("operator"): str}],
+                    Optional("replaces"): [
+                        {
+                            "name": str,
+                            "product": str,
+                            Optional("location"): str,
+                            Optional("operator"): str
+                        }
+                    ],
                     Optional("replaces in"): [
                         {
                             Optional("name"): str,

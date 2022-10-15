@@ -16,7 +16,6 @@ def test_config_file():
     resource = dp.get_resource("config")
     config_file = yaml.safe_load(resource.raw_read())
 
-
     file_schema = Schema(
         {
             "production pathways": {
@@ -29,6 +28,7 @@ def test_config_file():
                         "reference product": str,
                         Optional("exists in original database"): bool,
                         Optional("new dataset"): bool,
+                        Optional("regionalize"): bool,
                     },
                     Optional("efficiency"): [
                         {
@@ -49,12 +49,13 @@ def test_config_file():
                             i in LIST_REMIND_REGIONS + LIST_IMAGE_REGIONS for i in s
                         ),
                     ),
-                    Optional("replaces"): [{"name": str, "reference product": str}],
+                    Optional("replaces"): [{"name": str, "product": str, Optional("operator"): str}],
                     Optional("replaces in"): [
                         {
                             Optional("name"): str,
                             Optional("reference product"): str,
                             Optional("location"): str,
+                            Optional("operator"): str,
                         }
                     ],
                     Optional("replacement ratio"): float,
@@ -72,15 +73,15 @@ def test_config_file():
                             i in config_file["production pathways"] for i in s
                         ),
                     ),
-                        Optional("add"): [
-                            {
-                                Optional("name"): str,
-                                Optional("reference product"): str,
-                                Optional("categories"): str,
-                                Optional("unit"): str,
-                                Optional("amount"): float,
-                            }
-                        ],
+                    Optional("add"): [
+                        {
+                            Optional("name"): str,
+                            Optional("reference product"): str,
+                            Optional("categories"): str,
+                            Optional("unit"): str,
+                            Optional("amount"): float,
+                        }
+                    ],
                     Optional("except regions"): And(
                         list,
                         Use(list),
@@ -88,12 +89,13 @@ def test_config_file():
                             i in LIST_REMIND_REGIONS + LIST_IMAGE_REGIONS for i in s
                         ),
                     ),
-                    Optional("replaces"): [{"name": str, "reference product": str}],
+                    Optional("replaces"): [{"name": str, "product": str, Optional("operator"): str}],
                     Optional("replaces in"): [
                         {
                             Optional("name"): str,
                             Optional("reference product"): str,
                             Optional("location"): str,
+                            Optional("operator"): str,
                         }
                     ],
                     Optional("replacement ratio"): float,

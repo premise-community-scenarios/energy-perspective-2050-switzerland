@@ -26,7 +26,7 @@ df = pd.DataFrame(scenario_data, columns=scenario_headers)
 
 
 def test_scenario_data_file():
-    mandatory_fields = ["model", "pathway", "region", "variables", "unit"]
+    mandatory_fields = ["model", "pathway", "scenario", "region", "variables", "unit"]
     if not all(v in df.columns for v in mandatory_fields):
         raise ValueError(
             f"One or several mandatory column are missing "
@@ -96,7 +96,7 @@ def test_scenario_data_file():
         )
 
     try:
-        np.array_equal(df.iloc[:, 5:], df.iloc[:, 5:].astype(float))
+        np.array_equal(df.iloc[:, 6:], df.iloc[:, 6:].astype(float))
     except ValueError as e:
         raise TypeError(
             f"All values provided in the time series must be numerical "

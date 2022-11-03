@@ -18,7 +18,7 @@ def test_datapackage():
         'contributors',
         'dependencies',
         'ecoinvent',
-        'IAM scenario available',
+        'scenarios',
         'licenses',
         'resources'
     ]

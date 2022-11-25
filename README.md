@@ -207,6 +207,6 @@ How to use it?
                 ep2050, # <-- list datapackages here
             ] 
         )
-    ndb.update_external_scenarios()
+    ndb.update_external_scenario()
 ```
 

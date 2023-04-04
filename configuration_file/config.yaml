@@ -312,33 +312,16 @@ production pathways:
     production volume:
       variable: Production|Liquid fuel|DAC
     ecoinvent alias:
-      name: carbon dioxide, captured from atmosphere, EP2050
-      reference product: carbon dioxide, captured from the atmosphere
+      name: carbon dioxide, captured from atmosphere, with a solvent-based direct air capture system, 1MtCO2, EP2050
+      reference product: carbon dioxide, captured from atmosphere
       exists in original database: False
-
-    replaces:
-      - name: carbon dioxide, captured from atmosphere
-        product: carbon dioxide, captured from the atmosphere
-
-    replaces in:
-      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP205
-        reference product: Carbon monoxide, from RWGS
-        location: CH
-
-      - name: methanol synthesis, hydrogen from electrolysis, CO2 from DAC, EP2050
-        reference product: methanol, unpurified
-        location: CH
-
-      - name: methane, from electrochemical methanation, with carbon from atmospheric CO2 capture, EP2050
-        reference product: methane, from electrochemical methanation
-        location: CH
 
   CNG:
     production volume:
       variable: Production|Gaseous fuel|CNG
     ecoinvent alias:
-      name: natural gas, high pressure, at consumer
-      reference product: natural gas, high pressure, at consumer
+      name: natural gas production, high pressure, vehicle grade
+      reference product: natural gas, high pressure, vehicle grade
       exists in original database: True
 
   LNG:

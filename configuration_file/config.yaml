@@ -212,7 +212,7 @@ production pathways:
     production volume:
       variable: Production|Liquid fuel|Diesel|Biodiesel
     ecoinvent alias:
-      name: Biodiesel, from rapeseed oil, at fuelling station
+      name: biodiesel, from rapeseed oil, at fuelling station
       reference product: biodiesel, vehicle grade
       exists in original database: True
 
@@ -344,7 +344,7 @@ production pathways:
     production volume:
       variable: Production|Gaseous fuel|Synthetic gas
     ecoinvent alias:
-      name: Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
+      name: methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
       reference product: methane, high pressure
       exists in original database: True
 

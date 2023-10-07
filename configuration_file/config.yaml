@@ -546,10 +546,6 @@ markets:
 
     add:
 
-      - name: transmission network construction, long-distance
-        reference product: transmission network, long-distance
-        amount: 3.17e-10
-
       - name: transmission network construction, electricity, high voltage
         reference product: transmission network, electricity, high voltage
         amount: 6.58e-09
@@ -631,9 +627,6 @@ markets:
       - import
 
     add:
-      - name: transmission network construction, long-distance
-        reference product: transmission network, long-distance
-        amount: 3.17e-10
 
       - name: transmission network construction, electricity, high voltage
         reference product: transmission network, electricity, high voltage

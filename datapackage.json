@@ -9,10 +9,10 @@
     "email": "r_s@me.com"
     }],
     "dependencies": {
-        "premise": ">=1.2.5"
+        "premise": ">=1.7.3"
     },
     "ecoinvent": {
-        "version": "3.8",
+        "version": "3.9",
         "system model": "cut-off"
     },
     "scenarios": {

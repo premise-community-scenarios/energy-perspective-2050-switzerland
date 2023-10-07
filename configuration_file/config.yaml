@@ -257,8 +257,8 @@ production pathways:
           technosphere:
             - electricity
     ecoinvent alias:
-        name: hydrogen production, electrolysis, 25 bar, domestic, EP2050
-        reference product: hydrogen, gaseous
+        name: hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity, domestic, EP2050
+        reference product: hydrogen, gaseous, 30 bar
         exists in original database: True
 
   electrolysis_hydrogen_import:
@@ -270,20 +270,20 @@ production pathways:
           technosphere:
             - electricity
     ecoinvent alias:
-      name: hydrogen production, electrolysis, 25 bar, imported, EP2050
-      reference product: hydrogen, gaseous
+      name: hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity, imported, EP2050
+      reference product: hydrogen, gaseous, 30 bar
       exists in original database: True
 
     replaces:
-      - name: hydrogen production, gaseous, 25 bar, from electrolysis
-        product: Hydrogen, gaseous, 25 bar
+      - name: hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity
+        product: hydrogen, gaseous, 30 bar
 
     replaces in:
-      - name: Carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+      - name: carbon monoxide, from RWGS, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
         reference product: Carbon monoxide, from RWGS
         location: CH
 
-      - name: Syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
+      - name: syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis, EP2050
         reference product: Syngas, RWGS, Production, for Fischer Tropsch process, hydrogen from electrolysis
         location: CH
 
@@ -303,8 +303,8 @@ production pathways:
     production volume:
       variable: Production|Gaseous fuel|Hydrogen|Gaseous to liquid
     ecoinvent alias:
-      name: market for hydrogen, gaseous, EP2050
-      reference product: hydrogen, gaseous
+      name: market for hydrogen, liquid, EP2050
+      reference product: hydrogen, liquid
       exists in original database: False
       new dataset: True
 
@@ -403,7 +403,7 @@ markets:
         categories: air::non-urban air or from high stacks
         unit: kilogram
         amount: 0.001628712
-      - name: NMVOC, non-methane volatile organic compounds, unspecified origin
+      - name: NMVOC, non-methane volatile organic compounds
         categories: air::non-urban air or from high stacks
         unit: kilogram
         amount: 1.123812e-06
@@ -454,7 +454,7 @@ markets:
     reference product: hydrogen, liquid
     unit: kilogram
     includes:
-      - hydrogen_liquid
+      - electrolysis_hydrogen
 
     add:
       - name: high pressure hydrogen storage tank
@@ -468,7 +468,6 @@ markets:
       - name: market for transport, freight, lorry, unspecified
         reference product: transport, freight, lorry, unspecified
         amount: 0.2
-
 
       - name: Hydrogen
         categories: air::non-urban air or from high stacks
@@ -577,7 +576,7 @@ markets:
         product: electricity, low voltage
 
     replaces in:
-      - name: hydrogen production, electrolysis, 25 bar, imported, EP2050
+      - name: hydrogen production, gaseous, 30 bar, from PEM electrolysis, from grid electricity, imported, EP2050
         reference product: hydrogen, gaseous
         location: CH
 
@@ -609,7 +608,7 @@ markets:
         reference product: methanol, purified
         location: CH
 
-      - name: Methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
+      - name: methane, synthetic, gaseous, 5 bar, from electrochemical methanation, at fuelling station, EP2050
         reference product: methane, high pressure
         location: CH
 

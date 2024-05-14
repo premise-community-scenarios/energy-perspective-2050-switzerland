@@ -15,36 +15,10 @@
         "version": "3.9",
         "system model": "cut-off"
     },
-    "scenarios": {
-        "Business As Usual": [
-            {
-                "model": "image",
-                "pathway": "SSP2-Base"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-Base"
-            }
-        ],
-        "ZERO Basis": [
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP26"
-            },
-            {
-                "model": "image",
-                "pathway": "SSP2-RCP19"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-PkBudg1150"
-            },
-            {
-                "model": "remind",
-                "pathway": "SSP2-PkBudg500"
-            }
-        ]
-    },
+    "scenarios": [
+        "Business As Usual",
+        "ZERO Basis"
+    ],
     "licenses": [{
     "id": "CC0-1.0",
     "title": "CC0 1.0",

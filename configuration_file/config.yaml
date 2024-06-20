@@ -381,9 +381,6 @@ markets:
       - variable: Distribution losses|Gaseous fuel|Low to high
 
     add:
-      - name: natural gas, burned in gas turbine
-        reference product: natural gas, burned in gas turbine
-        amount: 0.044118
       - name: market for pipeline, natural gas, low pressure distribution network
         reference product: pipeline, natural gas, low pressure distribution network
         amount: 1.43e-7
@@ -403,10 +400,6 @@ markets:
         categories: air::non-urban air or from high stacks
         unit: kilogram
         amount: 0.001628712
-      - name: NMVOC, non-methane volatile organic compounds
-        categories: air::non-urban air or from high stacks
-        unit: kilogram
-        amount: 1.123812e-06
       - name: Propane
         categories: air::non-urban air or from high stacks
         unit: kilogram

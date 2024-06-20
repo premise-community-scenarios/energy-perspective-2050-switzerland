@@ -3,16 +3,16 @@
     "name": "energy-perspective-2050-switzerland",
     "title": "Energy Perspective 2050 + scenario implementation",
     "description": "Implementation of BAU and ZERO Basis scenarios from Energy Perspective 2050 +",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "contributors":[{
     "title": "Romain Sacchi",
     "email": "r_s@me.com"
     }],
     "dependencies": {
-        "premise": ">=1.7.3"
+        "premise": ">=2.1.1"
     },
     "ecoinvent": {
-        "version": "3.9",
+        "version": "3.10",
         "system model": "cut-off"
     },
     "scenarios": [

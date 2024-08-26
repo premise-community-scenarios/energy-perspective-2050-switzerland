@@ -204,6 +204,6 @@ How to use it?
             source_version="3.8",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         )
-    ndb.update_external_scenario()
+    ndb.update("external") # or ndb.update() for all sectors plus external
 ```
 

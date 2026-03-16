@@ -39,7 +39,7 @@ Test
 Ecoinvent database compatibility
 --------------------------------
 
-ecoinvent 3.8 cut-off
+ecoinvent 3.10 cut-off
 
 IAM scenario compatibility
 ---------------------------
@@ -62,7 +62,7 @@ The following coupling is done between IAM and EP2050+ scenarios:
 | REMIND SSP2-PkBudg1150 | ZERO A               |
 | REMIND SSP2-PkBudg1150 | ZERO B               |
 | REMIND SSP2-PkBudg1150 | ZERO C               |
-| REMIND SSP2-PkBudg500  | ZERO Basis           |
+| REMIND SSP2-PkBudg500  | ZERO Basis (default) |
 | REMIND SSP2-PkBudg500  | ZERO A               |
 | REMIND SSP2-PkBudg500  | ZERO B               |
 | REMIND SSP2-PkBudg500  | ZERO C               |
@@ -80,7 +80,7 @@ Electricity
 
 * `market for electricity, high voltage, EP2050` (CH)
 * `market for electricity, medium voltage, EP2050` (CH)
-* `market for electricity, medium voltage, EP2050` (CH)
+* `market for electricity, low voltage, EP2050` (CH)
 
 These markets are relinked to activities that consume electricity in Switzerland.
 
@@ -156,7 +156,7 @@ Liquid fuels
 | Synthetic diesel                   | diesel production, synthetic, from Fischer Tropsch process, hydrogen from electrolysis, energy allocation, at fuelling station, EP2050          | Provided by premise. |
 | Petrol                             | market for petrol, low-sulfur                                   |
 | Bioethanol                         | ethanol production from sugar beet                |
-| Synthetic petrol                   | gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050 | Provided by premise. |                                                                                                |
+| Synthetic petrol                   | gasoline production, synthetic, from methanol, hydrogen from electrolysis, CO2 from DAC, energy allocation, at fuelling station, EP2050 | Provided by premise. |
 
 
 
@@ -178,7 +178,7 @@ Gaseous fuels
 Flow diagram
 ------------
 
-![map electricity markets](assets/flow_diagram.png)
+![flow diagram](assets/flow_diagram.png)
 
 How to use it?
 --------------
@@ -200,8 +200,8 @@ How to use it?
                 {"model":"image", "pathway":"SSP2-Base", "year":2050, "external scenarios": [{"scenario": "Business As Usual", "data": ep2050}]},
                 {"model":"image", "pathway":"SSP2-RCP26", "year":2030, "external scenarios": [{"scenario": "ZERO Basis", "data": ep2050}]},
             ],        
-            source_db="ecoinvent 3.8 cutoff",
-            source_version="3.8",
+            source_db="ecoinvent 3.10 cutoff",
+            source_version="3.10",
             key='xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx',
         )
     ndb.update("external") # or ndb.update() for all sectors plus external
